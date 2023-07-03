@@ -101,7 +101,8 @@ Eraso mota hau, Windows azpiegituretan gehienetako bat errepikatzen den eraso mo
     
    <a href="https://www.eitb.eus/eu/nahieran/teknopolis/teknopolis-eu-2022-2023/osoa/8358/209774/"> <img align="center" src="img/teknopolis.jpg" width=50% height=50%> </a>
    
-   - **Diario Vasco erreportaia:**  [Gari]
+   - **Diario Vasco erreportaia:**
+     Otsailean Diario Vasco egunkarian publikatutako erreportaiaren esteka. [Erreportaia](komunikazioa/dv/dv_26.02.23.pdf)
    - **Advanced Factories 2023 Mahai-Ingurua:** [Ibai]
    - **Caso de éxito ClearPass Don Bosco:** [Gari]
    - **Euskal Hack:**
