@@ -50,11 +50,13 @@ Jarraian garatzen diren puntuetan, 2022-23 ikasturtean zehar **Tknikako Ziberseg
      - **Zentruetako Proiektuak:** 
        - *Cyber Car:*
          Konektatutako ibilgailuetan, zibersegurtasunari buruzko normalizazioko organo estandarrak ezarri nahi izan dira ikastetxe ezberdinek partehartu duten proiektu honetan. Garraio-sistema adimenduetan, komunikazio-teknologiak tartean dauden konektibitatea aztertuz.  [Aurkezpena](docs/cybercar/cybercar.pdf)
+
          <a href="docs/cybercar/cybercar.pdf" class="image fit"><img align="center" src="img/cybercar.png" alt="" width=50% height=50%></a>
           
        - *OT Erronkak:*
          Ikastetxeetarako OT erronka berriak diseinatu dira. Cyber Range saioak egiteko laborategiak prestatzearekin batera Galdakaoko Andra Mari, Barakaldo eta Txorierriko ikastetxeekin batera. Prozesu honen garapena azaltzen duen aurkezpena:
          [Aurkezpena](docs/OT/OT_Cyberrange_Aurkezpena.pdf)
+
          <a href="docs/OT/OT_Cyberrange_Aurkezpena.pdf" class="image fit"><img align="center" src="img/cr_ot.png" alt="" width=50% height=50%></a>
   
   
@@ -63,6 +65,9 @@ Jarraian garatzen diren puntuetan, 2022-23 ikasturtean zehar **Tknikako Ziberseg
       <img align="center" src="https://github.com/getxeberriaur/Zibersegurtasuna2022-23/assets/98767823/84362a25-320d-4592-b9c0-d0a1b1cf714e" width=20% height=20%>
     
        Aurtengo ikasturtean **Uni Eibar-Ermua** Ikastetxearekin batera, **Darktrace** izeneko tresna testeatu da saretik etor daitezken mehatxuen aurrean admien artifiziala erabiliz, eskaintzen duen babes mailaren ikerketa bat egiteko asmoarekin. Bertatik ateratako ondorioak eta pilotu honen balorazio jarraian estekatutako dokumentuan aurkitzen da.[Dokumentazio gida](docs/darktrace/DarktracePilotua.pdf)
+
+       <a href="docs/darktrace/DarktracePilotua.pdf" class="image fit"><img align="center" src="img/darktracepdf.jpg" alt="" width=50% height=50%></a>
+
     - **Smartfense:** 
       <img align="center" src="https://github.com/getxeberriaur/Zibersegurtasuna2022-23/assets/98767823/efc4a4b4-bbc9-4f69-b7df-fbe65bdab673" width=20% height=20%>
 
@@ -82,6 +87,9 @@ Jarraian garatzen diren puntuetan, 2022-23 ikasturtean zehar **Tknikako Ziberseg
     - **Pentesting (Tartanga):** <img align="center" src="img/tartanga_logo.jpg" width=20% height=20%> <img align="center" src="img/jakincode.jpg" width=20% height=20%>
     
       **Tartanga** ikastetxearekin elkarlanean, pilotu bat martxan jarri da aurtengo ikasturtean ikastetxearen **Pen Testing** froga bat egiteko. Honetan, **Txurdinaga** ikastetxeko Zibersegurtasun espezialitateko ikasle bat aritu da. [Dokumentazio gida](docs/pentesting_tartanga/PilotoPentesting.pdf)
+
+      <a href="docs/pentesting_tartanga/PilotoPentesting.pdf" class="image fit"><img align="center" src="img/pentesting.png" alt="" width=50% height=50%></a>
+
   - ### 3.3 Ikastaroak:
     - **OT Zibersegurtasunaren Oinarriak:**
 
@@ -89,6 +97,7 @@ Jarraian garatzen diren puntuetan, 2022-23 ikasturtean zehar **Tknikako Ziberseg
 
       **Martxoak 14 eta 23** bitartean, 40 irakaslek parte hartu zuten *"OT Zibersegurtasunaren Oinarriak"* ikastaroan. 20 ordutako iraupena izan zuen ikastaro honetan, **OT munduko zibersegurtasunera** hurbilketa burutu nahi izan zen.
       Horretarako aurkezpen teorikoak eta kasu praktikoak tartekatuko ziren. Kurtso amaieran aurkezpenak, kasu praktikoen gida eta alor hauetan sakontzeko material gehigarria banatuko zen. [Materiala guztia hemen](https://github.com/getxeberriaur/Zibersegurtasuna2022-23/tree/main/OT(SCI)Oinarriak) *Azalpenak Euskaraz, Euskarriak Gaztelaniaz.*
+      
     - **Nozomi:** [Ibai]
     - **Python Hacking-erako:** <img align="center" src="img/phyton.png" width=20% height=20%>
     
