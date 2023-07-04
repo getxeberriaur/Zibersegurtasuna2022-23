@@ -115,7 +115,7 @@ Eraso mota hau, Windows azpiegituretan gehienetako bat errepikatzen den eraso mo
    **Ekainak 22**an burutu zen **Transferentzia Egunean**, ikasturtean zehar jorraturiko lan ildo desberdinak aurkeztu ziren. Beste proiektu batzuen artean, 2022-23an zehar landu diren pilotu hauek aurkeztu ziren: **PenTesting (Tartanga), Cyber Car, OT Erronkak(Andra Mari) Darktrace (Uni Eibar-Ermua), eta Smartfense(Tknika).**
 Jarraian dago, egun horretan buruturiko aurkezpenen bideoa:
 <!--[![Watch the video](img/t_eguna.jpg)](https://www.youtube.com/embed/bk5YuVu1D7o) -->
-<a href="https://www.youtube.com/embed/bk5YuVu1D7o"> <img align="center" src="img/t_eguna.jpg" width=50% height=50%> </a>
+<a href="https://www.youtube.com/watch?v=bk5YuVu1D7o&t=0s"> <img align="center" src="img/t_eguna.jpg" width=50% height=50%> </a>
        
    - **Cybasque:** [Ibai]
    - **TKNIKA berriak:**
