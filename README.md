@@ -18,7 +18,7 @@
 5. [Author:](#author)
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ## 1.Aurkezpena:<img align="center" src="img/lerroa.png">
-Jarraian garatzen diren puntuetan, 2022-23 ikasturtean zehar **Tknikako Zibersegurtasun** lantaldetik jorratu diren edukiak agertzen dira. Edukiak zerrendatzeaz gain, erabilitako fitxategi edo sorturiko materialetara iristeko estekak aurkitzen dira..
+Jarraian garatzen diren puntuetan, 2022-23 ikasturtean zehar **Tknikako Zibersegurtasun** lantaldetik jorratu diren edukiak agertzen dira. Edukiak zerrendatzeaz gain, erabilitako fitxategi edo sorturiko materialetara iristeko estekak aurkitzen dira.
 
 
 
@@ -45,7 +45,7 @@ Jarraian garatzen diren puntuetan, 2022-23 ikasturtean zehar **Tknikako Ziberseg
 
       OT panel aurreratu bat montatu da Tknikako laborategian. Sare segmentatu batetan, gailu ezberdinak kokatu direlarik frogak egiten joateko.[Dokumentazio gida](docs/OT/Manual_panel_OT.pdf)
 
-<a href="docs/OT/Manual_panel_OT.pdf" class="image fit"><img src="img/ot_panela.png" alt=""></a>
+<a href="docs/OT/Manual_panel_OT.pdf" class="image fit"><img src="img/ot_panela.png" alt="" width=20% height=20%></a>
 
      - **Zentruetako Proiektuak:** 
        - *Cyber Car:*
