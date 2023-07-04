@@ -63,7 +63,11 @@ Jarraian garatzen diren puntuetan, 2022-23 ikasturtean zehar **Tknikako Ziberseg
 
       Sareko zerbitzuak gero eta gehiago erabiltzen diren garai hauetan, lanerako malgutasuna irabaztearekin batera arriskuak ere areagotu dira hein haundi batetan. Arrazoi honengatik, beharrezkoa da erabiltzaileak sareko arriskuen inguruan kontzientziatzea.
       Lagin modura, **TKNIKA**ko langileen plantilla erabili da, bertako 59 langile gehitu direlarik erabiltzaile gisa. Honetarako erabili den tresna **SMARTFENSE** izan da eta bi kanpaina burutu dira Otsaila eta Ekaina artean. [Dokumentazio gida](docs/smartfense/SMARTFENSE_-_Catálogo_de_Contenidos.pdf) eta [Osagaiak-Ezaugarriak](docs/smartfense/SMARTFENSE_-_Descripción_de_Componentes_y_Características.pdf)
-      - **1.kanpaina:** *Pasahitz seguruak* [Dokumentazio gida](docs/smartfense/SMARTFENSE_1KANPAINA_EMAITZAK.pdf) 
+      - **1.kanpaina:** *Pasahitz seguruak* [Dokumentazio gida](docs/smartfense/SMARTFENSE_1KANPAINA_EMAITZAK.pdf)
+        Pasahitzen seguruen kanpainari lotuta, beste ildo batzuk ere jorratu dira. Hona hemen, IMHko Pedro Arreitunandiak sorturiko edukiak.
+        -Pasahitz seguruak nola sortu: https://bideoa.imh.eus/w/oTuuiEc5PSexRJWfq6RkbL
+        -Pasahitz Kudeatzaileak: https://bideoa.imh.eus/w/2EG6L7CpcRaJG1TeUmQALC
+        -Pasahitz Kudeatzaileak 2: https://bideoa.imh.eus/w/aZsMRqqHZmKEys5oJ9HKFQ
       - **2.kanpaina:** *Phishing-Ransomware iruzurrak* [Dokumentazio gida](docs/smartfense/SF_PHISHING_DOKUMENTUA.pdf)
 
       Pilotu hau Transferentzia Egunean aurkeztu zen. Hona hemen, bertan erabilitako aurkezpenaren euskarria.  [Aurkezpena](docs/smartfense/TransferentziaegunaSmartfense.pdf)
