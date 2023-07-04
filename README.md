@@ -28,7 +28,7 @@ Jarraian garatzen diren puntuetan, 2022-23 ikasturtean zehar **Tknikako Ziberseg
 | ------------- | ------------- |
 | Bisitak: | 80 +-  |
 | Bisitariak:  | 1500 +  |
-| Cyber Range Saioak: |  5 |
+| Cyber Range Saioak: |  6 |
 | Ikastaroak:  | 4  |
 | Ikastaroen balorazioa:  | xxx  |
 | Ikastaroetan partehartzaileak:  | xxxx  |
@@ -50,12 +50,12 @@ Jarraian garatzen diren puntuetan, 2022-23 ikasturtean zehar **Tknikako Ziberseg
      - **Zentruetako Proiektuak:** 
        - *Cyber Car:*
          Konektatutako ibilgailuetan, zibersegurtasunari buruzko normalizazioko organo estandarrak ezarri nahi izan dira ikastetxe ezberdinek partehartu duten proiektu honetan. Garraio-sistema adimenduetan, komunikazio-teknologiak tartean dauden konektibitatea aztertuz.  [Aurkezpena](docs/cybercar/cybercar.pdf)
-         <a href="docs/cybercar/cybercar.pdf" class="image fit"><img src="img/ciybercar.png" alt="" width=50% height=50%></a>
+         <a href="docs/cybercar/cybercar.pdf" class="image fit"><img align="center" src="img/cybercar.png" alt="" width=50% height=50%></a>
           
        - *OT Erronkak:*
          Ikastetxeetarako OT erronka berriak diseinatu dira. Cyber Range saioak egiteko laborategiak prestatzearekin batera Galdakaoko Andra Mari, Barakaldo eta Txorierriko ikastetxeekin batera. Prozesu honen garapena azaltzen duen aurkezpena:
          [Aurkezpena](docs/OT/OT_Cyberrange_Aurkezpena.pdf)
-         <a href="docs/OT/OT_Cyberrange_Aurkezpena.pdf" class="image fit"><img src="img/cr_ot.png" alt="" width=50% height=50%></a>
+         <a href="docs/OT/OT_Cyberrange_Aurkezpena.pdf" class="image fit"><img align="center" src="img/cr_ot.png" alt="" width=50% height=50%></a>
   
   
   - ### 3.2 Pilotuak:
