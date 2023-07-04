@@ -86,7 +86,7 @@ Jarraian garatzen diren puntuetan, 2022-23 ikasturtean zehar **Tknikako Ziberseg
 
     - **Pentesting (Tartanga):** <img align="center" src="img/tartanga_logo.jpg" width=20% height=20%> <img align="center" src="img/jakincode.jpg" width=20% height=20%>
     
-      **Tartanga** ikastetxearekin elkarlanean, pilotu bat martxan jarri da aurtengo ikasturtean ikastetxearen **Pen Testing** froga bat egiteko. Honetan, **Txurdinaga** ikastetxeko Zibersegurtasun espezialitateko ikasle bat aritu da. [Dokumentazio gida](docs/pentesting_tartanga/PilotoPentesting.pdf)
+      **Tartanga** ikastetxearekin elkarlanean, pilotu bat martxan jarri da aurtengo ikasturtean ikastetxearen **PenTesting** froga bat egiteko. Honetan, **Txurdinaga** ikastetxeko Zibersegurtasun espezialitateko ikasle bat aritu da. [Dokumentazio gida](docs/pentesting_tartanga/PilotoPentesting.pdf)
 
       <a href="docs/pentesting_tartanga/PilotoPentesting.pdf" class="image fit"><img align="center" src="img/pentesting.png" alt="" width=50% height=50%></a>
 
