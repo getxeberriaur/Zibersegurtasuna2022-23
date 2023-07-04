@@ -106,6 +106,7 @@ Eraso mota hau, Windows azpiegituretan gehienetako bat errepikatzen den eraso mo
      
    - **Advanced Factories 2023 Mahai-Ingurua:** [Ibai]
    - **Caso de éxito ClearPass Don Bosco:**
+
      <iframe width="560" height="315" src="https://www.youtube.com/embed/PX3CtrOsgiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
    - **Euskal Hack:**
           EuskalHackek 2023 edizioan parte hartu ondoren, han emaniko tailler interesgarri batzuen zenbait esteka:
