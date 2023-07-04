@@ -107,6 +107,7 @@ Eraso mota hau, Windows azpiegituretan gehienetako bat errepikatzen den eraso mo
    - **Advanced Factories 2023 Mahai-Ingurua:** [Ibai]
    - **Caso de éxito ClearPass Don Bosco:**
      Don Bosco ikastetxeak, Sarenetekin batera inplantatu duen **Clear Pass** esperientzian parte hartu du Tknikak ere. Jarraian dagoen bideoan informazio gehiago.
+   
      [![Watch the video](https://img.youtube.com/vi/PX3CtrOsgiw/mq1.jpg)](https://www.youtube.com/embed/PX3CtrOsgiw)
    - **Euskal Hack:**
           EuskalHackek 2023 edizioan parte hartu ondoren, han emaniko tailler interesgarri batzuen zenbait esteka:
@@ -116,7 +117,7 @@ Eraso mota hau, Windows azpiegituretan gehienetako bat errepikatzen den eraso mo
 
    **Ekainak 22**an burutu zen **Transferentzia Egunean**, ikasturtean zehar jorraturiko lan ildo desberdinak aurkeztu ziren. Beste proiektu batzuen artean, 2022-23an zehar landu diren pilotu hauek aurkeztu ziren: **PenTesting (Tartanga), Cyber Car, OT Erronkak(Andra Mari) Darktrace (Uni Eibar-Ermua), eta Smartfense(Tknika).**
 Jarraian dago, egun horretan buruturiko aurkezpenen bideoa:
-<!--[![Watch the video](img/t_eguna.jpg)](https://www.youtube.com/embed/bk5YuVu1D7o) -->
+
 <a href="https://www.youtube.com/watch?v=bk5YuVu1D7o&t=0s"> <img align="center" src="img/t_eguna.jpg" width=50% height=50%> </a>
        
    - **Cybasque:** [Ibai]
