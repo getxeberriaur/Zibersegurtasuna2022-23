@@ -18,7 +18,7 @@
 5. [Author:](#author)
 ---------------------------------------------------------------------------------------------------------------------------------------------
 ## 1.Aurkezpena:<img align="center" src="img/lerroa.png">
-Jarraian garatzen diren puntuetan, 2022-23 ikasturtean zehar **Tknikako Zibersegurtasun** lantaldetik jorratu diren edukiak agertzen dira. Edukiak zerrendatzeaz gain, erabilitako fitxategi edo sorturiko materialetara iristeko estekak aurkitzen dira.
+Jarraian garatzen diren puntuetan, 2022-23 ikasturtean zehar **Tknikako Zibersegurtasun** lantaldetik jorratu diren edukiak agertzen dira. Edukiak zerrendatzeaz gain, erabilitako fitxategi edo sorturiko materialetara iristeko estekak aurkitzen dira..
 
 
 
