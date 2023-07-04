@@ -44,6 +44,9 @@ Jarraian garatzen diren puntuetan, 2022-23 ikasturtean zehar **Tknikako Ziberseg
      - **OT Azpiegitura aurreratua:** 
 
       OT panel aurreratu bat montatu da Tknikako laborategian. Sare segmentatu batetan, gailu ezberdinak kokatu direlarik frogak egiten joateko.[Dokumentazio gida](docs/OT/Manual_panel_OT.pdf)
+
+<a href="docs/OT/Manual_panel_OT.pdf" class="image fit"><img src="img/ot_panela.png" alt=""></a>
+
      - **Zentruetako Proiektuak:** 
        - *Cyber Car:*
          Konektatutako ibilgailuetan, zibersegurtasunari buruzko normalizazioko organo estandarrak ezarri nahi izan dira ikastetxe ezberdinek partehartu duten proiektu honetan. Garraio-sistema adimenduetan, komunikazio-teknologiak tartean dauden konektibitatea aztertuz.  [Aurkezpena](docs/cybercar/cybercar.pdf)
