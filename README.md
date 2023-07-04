@@ -23,6 +23,8 @@ Jarraian garatzen diren puntuetan, 2022-23 ikasturtean zehar **Tknikako Ziberseg
 
 
 ## 2.2023ko zifrak:<img align="center" src="img/lerroa.png">
+
+<img align="center" src="img/2023zifrak.pdf">
   
 | Zer  | Kopurua |
 | ------------- | ------------- |
