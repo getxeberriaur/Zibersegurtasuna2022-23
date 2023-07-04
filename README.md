@@ -45,15 +45,17 @@ Jarraian garatzen diren puntuetan, 2022-23 ikasturtean zehar **Tknikako Ziberseg
 
       OT panel aurreratu bat montatu da Tknikako laborategian. Sare segmentatu batetan, gailu ezberdinak kokatu direlarik frogak egiten joateko.[Dokumentazio gida](docs/OT/Manual_panel_OT.pdf)
 
-<a href="docs/OT/Manual_panel_OT.pdf" class="image fit"><img src="img/ot_panela.png" alt="" width=20% height=20%></a>
+      <a href="docs/OT/Manual_panel_OT.pdf" class="image fit"><img src="img/ot_panela.png" alt="" width=50% height=50%></a>
 
      - **Zentruetako Proiektuak:** 
        - *Cyber Car:*
          Konektatutako ibilgailuetan, zibersegurtasunari buruzko normalizazioko organo estandarrak ezarri nahi izan dira ikastetxe ezberdinek partehartu duten proiektu honetan. Garraio-sistema adimenduetan, komunikazio-teknologiak tartean dauden konektibitatea aztertuz.  [Aurkezpena](docs/cybercar/cybercar.pdf)
+         <a href="docs/cybercar/cybercar.pdf" class="image fit"><img src="img/ciybercar.png" alt="" width=50% height=50%></a>
           
        - *OT Erronkak:*
          Ikastetxeetarako OT erronka berriak diseinatu dira. Cyber Range saioak egiteko laborategiak prestatzearekin batera Galdakaoko Andra Mari, Barakaldo eta Txorierriko ikastetxeekin batera. Prozesu honen garapena azaltzen duen aurkezpena:
          [Aurkezpena](docs/OT/OT_Cyberrange_Aurkezpena.pdf)
+         <a href="docs/OT/OT_Cyberrange_Aurkezpena.pdf" class="image fit"><img src="img/cr_ot.png" alt="" width=50% height=50%></a>
   
   
   - ### 3.2 Pilotuak:
