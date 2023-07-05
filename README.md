@@ -2,7 +2,7 @@
 ![tknika_logo](https://github.com/getxeberriaur/Zibersegurtasuna2022-23/assets/98767823/c91f35c1-9776-40fe-8fed-c8d4171250dc)
 
 # Zibersegurtasuna 2022-23
-2022-23 ikasturteko memoria
+**2022-23 ikasturteko memoria**
 
 
 ## Aurkibidea<img align="center" src="img/lerroa.png">
@@ -104,7 +104,7 @@ Jarraian garatzen diren puntuetan, 2022-23 ikasturtean zehar **Tknikako Ziberseg
       
 Eraso mota hau, Windows azpiegituretan gehienetako bat errepikatzen den eraso mota da. Active Directory instalatuta dagoen inguruneetan, SMB protokoloa erabiliz burutzen den penetrazio bat da. Ikerketa honetan jarraitutako urratsen dokumentazioa. [Dokumentazio gida](docs/smbrelay/SMBRELAY_DOKUMENTUA.pdf)
 
-   <a href="docs/smbrelay/SMBRELAY_DOKUMENTUA.pdf" class="image fit"><img align="center" src="img/smbrelay.jpg" alt="" width=30% height=30%></a>
+  <a href="docs/smbrelay/SMBRELAY_DOKUMENTUA.pdf" class="image fit"><img align="center" src="img/smbrelay.jpg" alt="" width=30% height=30%></a>
 
 
 ## 4.Harremanak eta Komunikazioa:<img align="center" src="img/lerroa.png">
@@ -122,17 +122,17 @@ Eraso mota hau, Windows azpiegituretan gehienetako bat errepikatzen den eraso mo
    - **Caso de éxito ClearPass Don Bosco:**
      Don Bosco ikastetxeak, Sarenetekin batera inplantatu duen **Clear Pass** esperientzian parte hartu du Tknikak ere. Jarraian dagoen **bideoan** informazio gehiago.
    
-   <a href="https://www.youtube.com/embed/PX3CtrOsgiw"> <img align="center" src="https://img.youtube.com/vi/PX3CtrOsgiw/mq1.jpg" width=50% height=50%> </a>
+         <a href="https://www.youtube.com/embed/PX3CtrOsgiw"> <img align="center" src="https://img.youtube.com/vi/PX3CtrOsgiw/mq1.jpg" width=50% height=50%> </a>
      
    - **Euskal Hack:**
           EuskalHackek 2023 edizioan parte hartu ondoren, han emaniko tailler interesgarri batzuen zenbait esteka:
      - **Offensive Logon Sessions:**  [2023/EuskalHack/EuskalHack_Offensive_Logon_Sessions.pdf](https://github.com/MrSquid25/PPTs-CONs/blob/main/2023/EuskalHack/EuskalHack_Offensive_Logon_Sessions.pdf)
     
-       <a href="https://github.com/MrSquid25/PPTs-CONs/blob/main/2023/EuskalHack/EuskalHack_Offensive_Logon_Sessions.pdf" class="image fit"><img align="center" src="img/offlogsession.jpg" alt="" width=50% height=50%></a>
+        <a href="https://github.com/MrSquid25/PPTs-CONs/blob/main/2023/EuskalHack/EuskalHack_Offensive_Logon_Sessions.pdf" class="image fit"><img align="center" src="img/offlogsession.jpg" alt="" width=50% height=50%></a>
 
      - **Reconftw:** [EuskalHack2023 Reconftw](https://github.com/six2dez/reconftw) Bertan erabilitako aurkezpenaren dokumentua. [Reconftw.pdf](docs/euskalhack/reconftw_euskalhack23.pdf)
 
-       <a href="docs/euskalhack/reconftw_euskalhack23.pdf" class="image fit"><img align="center" src="img/reconftw.jpg" alt="" width=50% height=50%></a>
+        <a href="docs/euskalhack/reconftw_euskalhack23.pdf" class="image fit"><img align="center" src="img/reconftw.jpg" alt="" width=50% height=50%></a>
 
    - **Transferentzia Eguna:** 
 
