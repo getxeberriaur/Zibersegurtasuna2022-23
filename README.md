@@ -104,7 +104,7 @@ Jarraian garatzen diren puntuetan, 2022-23 ikasturtean zehar **Tknikako Ziberseg
       
 Eraso mota hau, Windows azpiegituretan gehienetako bat errepikatzen den eraso mota da. Active Directory instalatuta dagoen inguruneetan, SMB protokoloa erabiliz burutzen den penetrazio bat da. Ikerketa honetan jarraitutako urratsen dokumentazioa. [Dokumentazio gida](docs/smbrelay/SMBRELAY_DOKUMENTUA.pdf)
 
-      <a href="docs/smbrelay/SMBRELAY_DOKUMENTUA.pdf" class="image fit"><img align="center" src="img/smbrelay.jpg" alt="" width=50% height=50%></a>
+   <a href="docs/smbrelay/SMBRELAY_DOKUMENTUA.pdf" class="image fit"><img align="center" src="img/smbrelay.jpg" alt="" width=50% height=50%></a>
 
 
 ## 4.Harremanak eta Komunikazioa:<img align="center" src="img/lerroa.png">
