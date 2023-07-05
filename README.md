@@ -122,7 +122,7 @@ Eraso mota hau, Windows azpiegituretan gehienetako bat errepikatzen den eraso mo
    - **Caso de éxito ClearPass Don Bosco:**
      Don Bosco ikastetxeak, Sarenetekin batera inplantatu duen **Clear Pass** esperientzian parte hartu du Tknikak ere. Jarraian dagoen **bideoan** informazio gehiago.
    
-         <a href="https://www.youtube.com/embed/PX3CtrOsgiw"> <img align="center" src="https://img.youtube.com/vi/PX3CtrOsgiw/mq1.jpg" width=50% height=50%> </a>
+   <a href="https://www.youtube.com/embed/PX3CtrOsgiw"> <img align="center" src="https://img.youtube.com/vi/PX3CtrOsgiw/mq1.jpg" width=50% height=50%> </a>
      
    - **Euskal Hack:**
           EuskalHackek 2023 edizioan parte hartu ondoren, han emaniko tailler interesgarri batzuen zenbait esteka:
