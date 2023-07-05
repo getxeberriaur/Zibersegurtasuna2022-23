@@ -24,7 +24,7 @@ Jarraian garatzen diren puntuetan, 2022-23 ikasturtean zehar **Tknikako Ziberseg
 
 ## 2.2023ko zifrak:<img align="center" src="img/lerroa.png">
 
-<img align="center" src="img/zifrak2023.jpg" width=30% height=30%>>
+<img align="center" src="img/zifrak.png" width=30% height=30%>>
   
 ## 3.Lan ildoak:<img align="center" src="img/lerroa.png">
   - ### 3.1 Proiektuak:
