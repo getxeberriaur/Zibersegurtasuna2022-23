@@ -24,6 +24,7 @@ Jarraian garatzen diren puntuetan, 2022-23 ikasturtean zehar **Tknikako Ziberseg
 
 ## 2.2023ko zifrak:<img align="center" src="img/lerroa.png">
 <img align="left" src="img/ZIFRAK.png">  
+![ZIFRAK](https://github.com/getxeberriaur/Zibersegurtasuna2022-23/assets/98767823/116ec8ca-d97c-4b34-852b-65c46fab9602)
 
 ## 3.Lan ildoak:<img align="center" src="img/lerroa.png">
   - ### 3.1 Proiektuak:
