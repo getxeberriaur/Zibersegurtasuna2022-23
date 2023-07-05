@@ -24,19 +24,8 @@ Jarraian garatzen diren puntuetan, 2022-23 ikasturtean zehar **Tknikako Ziberseg
 
 ## 2.2023ko zifrak:<img align="center" src="img/lerroa.png">
 
-<img align="center" src="img/2023zifrak.pdf">
+<img align="center" src="img/zifrak2023.jpg" width=50% height=50%>>
   
-| Zer  | Kopurua |
-| ------------- | ------------- |
-| Bisitak: | 80 +-  |
-| Bisitariak:  | 1500 +  |
-| Cyber Range Saioak: |  6 |
-| Ikastaroak:  | 4  |
-| Ikastaroen balorazioa:  | xxx  |
-| Ikastaroetan partehartzaileak:  | xxxx  |
-| Pilotuak:  | xxxx  |
-| Enpresak elkarlanean:  | 20  |
-
 ## 3.Lan ildoak:<img align="center" src="img/lerroa.png">
   - ### 3.1 Proiektuak:
      - **Cyber Range:** [Ibai]
